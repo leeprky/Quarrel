@@ -87,6 +87,10 @@
 /* Quarrel Dark */
 .theme-dark {
 
+  /* Quarrel */
+
+
+  
   /* Keeping Consistancy With Discord */ 
 --serverlist-background: var(--background-tertiary);
 --memberlist-background: #2F3136;
@@ -156,16 +160,6 @@
 .guilds-1SWlCJ{background-color:var(--serverlist-background-light)}
 .powercord-toast .contents{background-color:var(--toast-content)}
 
-/* Bd Blue */
-.bd-button, .bd-server-tag, .bd-addon-views .bd-view-button.selected  {
-  background-color: var(--bd-color); 
-}
-.bd-button:hover {
-  background-color: var(--bd-color-hover); 
-}
-#bd-pub-button:hover {
-  background-color: var(--bd-color-hover); 
-}
 /*  ----------------------------------------------------
                   Optional Features
         Add A "/*" On The Lines Below The Comments
@@ -178,20 +172,22 @@
                          v0.1 (Quarrel)
     ----------------------------------------------------  */
 
-    .icon-2yIBmh, .mainContent-2h-GEV, .container-2ax-kl {
+    .icon-2yIBmh, .mainContent-2h-GEV {
       margin-left: 5px;
       font-size: 15px;
     }
-    .mainContent-2h-GEV:before  {
-      content: "";
-      display: block;
-      width: 270px;
-      height: 0.1px;
-      margin-top: 23px;
-      background: rgb(133, 133, 133);
-      position: absolute;
+    .container-2ax-kl {
       margin-left: 5px;
+      font-size: 15px;
+      margin-left: 10px;
     }
+    .icon-2yIBmh {
+      height: 25px;
+      width: 25px;
+      margin-top: -6px;
+      margin-left: 2px;
+    }
+
 
     .membersGroup-v9BXpm {
       padding: 16px 8px 0 16px;
@@ -339,6 +335,9 @@
 :root {
   --bar-background-primary: #35373D;
 }
+.scrollableContainer-2NUZem {
+  background-color: var(--bar-background-primary);
+}
 
 #app-mount {
   --bar-height: 86px; /* i recommend not touching this */
@@ -430,10 +429,12 @@
   margin-left: -1px;
   margin-right: -10px;
 }
-
 .content-1x5b-n {
   width: 250px;
   height: 35px;
   margin-left: -1px;
   margin-right: -10px;
+}
+.children-3rEycc {
+  margin-right: 15px;
 }
