@@ -12,7 +12,7 @@ For **Powercord** Users:
 1. Open CMD & Type:
 
 ```
-cd powercord/src/Powercord/themes && git clone https://github.com/leeprky/Lode
+cd powercord/src/Powercord/themes && git clone https://github.com/leeprky/Quarrel
 ```
 # Extras 
 
