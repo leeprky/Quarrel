@@ -438,3 +438,26 @@
 .children-3rEycc {
   margin-right: 15px;
 }
+
+
+
+.unread-2lAfLh {
+  width: 1.25px;
+  height: 20px;
+  border-radius: 0;
+  margin-left: 3px;
+  margin-top: -9px;
+}
+
+.item-2hkk8m {
+  width: 1.75px;
+  height: 30px;
+  border-radius: 0;
+  margin-left: 3px;
+  margin-top: -0px;
+}
+
+.expandedFolderBackground-1cujaW {
+  background-color: var(--background-tertiary);
+}
+
