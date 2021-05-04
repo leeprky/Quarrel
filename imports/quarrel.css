@@ -1,0 +1,259 @@
+.icon-2yIBmh, .mainContent-2h-GEV, .container-2ax-kl {
+      margin-left: 5px;
+      font-size: 15px;
+    }
+    .mainContent-2h-GEV:before  {
+      content: "";
+      display: block;
+      width: 270px;
+      height: 0.1px;
+      margin-top: 23px;
+      background: rgb(133, 133, 133);
+      position: absolute;
+      margin-left: 5px;
+    }
+
+    .membersGroup-v9BXpm {
+      padding: 16px 8px 0 16px;
+      height: 45px;
+      margin-top: 6px;
+      font-size: 14px;
+  }
+
+  .membersGroup-v9BXpm::after {
+    content: "";
+    display: block;
+    width: 210px;
+    height: 1px;
+    left: 15px;
+    margin-top: 4px;
+    background: rgb(133, 133, 133);
+    position: absolute;
+    /* in order: x offset, y offset, blur size, spread size, color */
+    /* blur size and spread size are optional (they default to 0) */
+  }
+
+
+  #app-mount .wrapper-3t9DeA svg:not(:root) {
+    overflow: visible;
+  }
+  #app-mount .wrapper-3t9DeA foreignObject {
+    -webkit-mask: none;
+            mask: none;
+  }
+  #app-mount .wrapper-3t9DeA .dots-3Bkt3k circle:nth-child(1) {
+    cy: -8 !important;
+    cx: -8.5 !important;
+  }
+  #app-mount .wrapper-3t9DeA .dots-3Bkt3k circle:nth-child(2) {
+    cy: -8 !important;
+    cx: -2.25 !important;
+  }
+  #app-mount .wrapper-3t9DeA .dots-3Bkt3k circle:nth-child(3) {
+    cy: -8 !important;
+    cx: 4 !important;
+  }
+  #app-mount .wrapper-3t9DeA .mask-1l8v16 > rect[x="22"] {
+    x: -10;
+    y: 5;
+    width: 0.5px;
+    height: 21px;
+  }
+  #app-mount .wrapper-3t9DeA .cursorDefault-dsQJ1n rect {
+    x: -49;
+    y: -53;
+  }
+  #app-mount .wrapper-3t9DeA .pointerEvents-2zdfdO[x="14.5"] {
+    fill: rgba(0, 0, 0, 0.5) !important;
+    width: 30px;
+    height: 30px;
+    x: 1;
+    y: 1;
+  }
+  #app-mount .wrapper-3t9DeA > svg > foreignObject img {
+    border-radius: var(--rs-avatar-shape);
+  }
+  #app-mount .wrapper-3t9DeA svg[width="25"][height="15"] > rect {
+    rx: calc(var(--rs-avatar-shape) * 2) !important;
+    ry: calc(var(--rs-avatar-shape) * 2) !important;
+  }
+  #app-mount .wrapper-3t9DeA rect {
+    x: 0;
+    y: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-mask: none;
+            mask: none;
+    display: block !important;
+    rx: var(--rs-avatar-shape) !important;
+    ry: var(--rs-avatar-shape) !important;
+    fill: transparent !important;
+    stroke-width: var(--rs-width);
+  }
+  #app-mount .wrapper-3t9DeA rect[fill="#43b581"], #app-mount .wrapper-3t9DeA rect[fill="rgba(67, 181, 129, 1)"], #app-mount .wrapper-3t9DeA rect[mask*=online] {
+    stroke: var(--rs-online-color);
+  }
+  #app-mount .wrapper-3t9DeA rect[fill="#faa61a"], #app-mount .wrapper-3t9DeA rect[fill="rgba(250, 166, 26, 1)"], #app-mount .wrapper-3t9DeA rect[mask*=idle] {
+    stroke: var(--rs-idle-color) !important;
+  }
+  #app-mount .wrapper-3t9DeA rect[fill="#f04747"], #app-mount .wrapper-3t9DeA rect[fill="rgba(240, 71, 71, 1)"], #app-mount .wrapper-3t9DeA rect[mask*=dnd] {
+    stroke: var(--rs-dnd-color) !important;
+  }
+  #app-mount .wrapper-3t9DeA rect[fill="#593695"], #app-mount .wrapper-3t9DeA rect[mask*=streaming] {
+    stroke: var(--rs-streaming-color) !important;
+  }
+  #app-mount .wrapper-3t9DeA rect[fill="#747f8d"], #app-mount .wrapper-3t9DeA rect[mask*=offline], #app-mount .wrapper-3t9DeA rect[fill=NaN] {
+    stroke: var(--rs-offline-color);
+  }
+  #app-mount .wrapper-3t9DeA rect[fill="#747f8d"], #app-mount .wrapper-3t9DeA rect[mask*=invisible], #app-mount .wrapper-3t9DeA rect[fill="rgba(116, 127, 141, 1)"] {
+    stroke: var(--rs-invisible-color);
+  }
+  #app-mount .wrapper-3t9DeA[style*="width: 80px;"] rect {
+    width: 80px;
+    height: 80px;
+    pointer-events: none;
+  }
+  #app-mount .wrapper-3t9DeA[style*="width: 80px;"] img {
+    -webkit-clip-path: inset(calc(var(--rs-large-spacing) + 1px) calc(var(--rs-large-spacing) + 1px) round var(--rs-avatar-shape));
+            clip-path: inset(calc(var(--rs-large-spacing) + 1px) calc(var(--rs-large-spacing) + 1px) round var(--rs-avatar-shape));
+  }
+  #app-mount .wrapper-3t9DeA[style*="width: 32px;"] rect {
+    width: 32px;
+    height: 32px;
+    x: -14.5;
+    y: -17;
+    position: relative;
+    z-index: 0;
+  }
+
+  
+:root {
+  --rs-small-spacing: 0px;  /* Spacing between avatar and status | MUST end in px */
+  --rs-large-spacing: 0px;  /* Spacing between avatar and status for user popouts & modals/profiles | MUST end in px */
+  --rs-width: 2px;  /* Width/thickness of status border */
+  --rs-avatar-shape: 50%;  /* 50% for round - 0% for square */
+  --rs-online-color: #1df594;  /* Colour for online status */
+  --rs-idle-color: #faa61a;  /* Colour for idle status */
+  --rs-dnd-color: #f04747;  /* Colour for dnd status */
+  --rs-offline-color: #636b75;  /* Colour for offline status */
+  --rs-streaming-color: #643da7;  /* Colour for streaming status */
+  --rs-invisible-color: #747f8d;  /* Colour for invisible status - Note: this will only show for your own invisibility */
+  --rs-phone-visible: block; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
+  --rs-phone-color: var(--rs-online-color); /* Colour of the ring and phone icon when a user is on their phone |  */
+}
+
+
+#app-mount .wrapper-3t9DeA[style*="width: 80px;"]:after {
+  left: unset;
+  right: -2px;
+  top: unset;
+  bottom: -2px;
+  transform: none;
+}
+#app-mount .avatarHint-1qgaV3 foreignObject {
+  -webkit-mask: none;
+          mask: none;
+          border-radius: VAR(--rs-avatar-shape);
+}
+
+:root {
+  --bar-background-primary: #35373D;
+}
+
+#app-mount {
+  --bar-height: 86px; /* i recommend not touching this */
+}
+
+#app-mount .container-3baos1 {
+  position: absolute;
+  background-color: var(--bar-background-primary);
+  bottom: 16px;
+  max-width: 223px;
+}
+#app-mount .sidebar-2K8pFh {
+  padding-bottom: var(--bar-height);
+}
+#app-mount .sidebar-2K8pFh::before {
+  content: "";
+  position: absolute;
+  background-color: var(--bar-background-primary);
+  width: 100%;
+  height: var(--bar-height);
+  bottom: 0;
+}
+#app-mount .chatContent-a9vAAp .form-2fGMdU {
+  background: var(--bar-background-primary);
+  padding: 21px 16px 0 16px;
+  margin-bottom: 0;
+  bottom: -3px;
+  margin: 0;
+  margin-top: -3px;
+}
+#app-mount .chatContent-a9vAAp .form-2fGMdU .channelTextArea-rNsIhG {
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+#app-mount .chatContent-a9vAAp .form-2fGMdU::before {
+  content: none;
+}
+#app-mount .chatContent-a9vAAp .form-2fGMdU .content-c_0cLD,
+#app-mount .chatContent-a9vAAp .form-2fGMdU .buttonContainer-3AU1Ij {
+  margin-bottom: 8px;
+}
+
+
+#app-mount .pageWrapper-1PgVDX,
+#app-mount .container-1D34oG,
+#app-mount .container-3Mxszk,
+#app-mount .applicationStore-1pNvnv {
+  padding-bottom: var(--bar-height);
+}
+#app-mount .pageWrapper-1PgVDX::before,
+#app-mount .container-1D34oG::before,
+#app-mount .container-3Mxszk::before,
+#app-mount .applicationStore-1pNvnv::before {
+  content: "";
+  position: absolute;
+  background-color: var(--bar-background-primary);
+  width: 100%;
+  height: var(--bar-height);
+  bottom: 0;
+}
+#app-mount .autocomplete-1vrmpx {
+  bottom: calc(100% + 29px);
+}
+#app-mount .positionLayer-1KzSAt.layer-v9HyYc {
+  bottom: calc(var(--bar-height) + 8px) !important;
+}
+#app-mount .wrapper-39oAo3 {
+  margin-bottom: 16px;
+}
+#app-mount .unreadMentionsIndicatorBottom-2mDYbI {
+  bottom: var(--bar-height);
+}
+#app-mount #status-picker {
+  margin-bottom: 20px;
+}
+#app-mount .typing-2GQL18 {
+  bottom: 0;
+}
+
+.attachButtonPlus-jWVFah {
+  fill: #fff;
+  d: path("M7 12.001C7 10.8964 6.10457 10.001 5 10.001C3.89543 10.001 3 10.8964 3 12.001C3 13.1055 3.89543 14.001 5 14.001C6.10457 14.001 7 13.1055 7 12.001ZM14 12.001C14 10.8964 13.1046 10.001 12 10.001C10.8954 10.001 10 10.8964 10 12.001C10 13.1055 10.8954 14.001 12 14.001C13.1046 14.001 14 13.1055 14 12.001ZM19 10.001C20.1046 10.001 21 10.8964 21 12.001C21 13.1055 20.1046 14.001 19 14.001C17.8954 14.001 17 13.1055 17 12.001C17 10.8964 17.8954 10.001 19 10.001Z");
+}
+
+.modeSelected-346R90 .content-1x5b-n, .modeSelected-346R90:hover .content-1x5b-n {
+  background-color: var(--background-modifier-selected);
+  width: 250px;
+  height: 35px;
+  margin-left: -1px;
+  margin-right: -10px;
+}
+
+.content-1x5b-n {
+  width: 250px;
+  height: 35px;
+  margin-left: -1px;
+  margin-right: -10px;
+}
