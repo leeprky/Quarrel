@@ -176,7 +176,7 @@
       margin-left: 5px;
       font-size: 15px;
     }
-    .container-2ax-kl {
+    .name-3l27Hl {
       margin-left: 5px;
       font-size: 15px;
       margin-left: 10px;
@@ -234,6 +234,7 @@
     y: 5;
     width: 0.5px;
     height: 21px;
+    position: fixed;
   }
   #app-mount .wrapper-3t9DeA .cursorDefault-dsQJ1n rect {
     x: -49;
@@ -461,3 +462,33 @@
   background-color: var(--background-tertiary);
 }
 
+.listItem-GuPuDH:hover {
+  background-color: #292D30;
+}
+
+.button-1ZiXG9 [aria-label="Reply"] {
+  display: none;
+}
+
+.clickable-1JJAn8:hover .layout-2DM8Md {
+  background-color: #43454A;
+  width: 250px;
+  height: 45px;
+  margin-left: -1px;
+  margin-right: -10px;
+  border-radius: 0;
+}
+
+.clickable-1JJAn8 .layout-2DM8Md {
+  width: 250px;
+  height: 45px;
+  margin-left: -1px;
+  margin-right: -10px;
+  border-radius: 0;
+}
+
+.clickable-1JJAn8.container-2Pjhx-:active, .highlighted-1gWxXa.container-2Pjhx-, .selected-aXhQR6.container-2Pjhx- {
+  width: 250px;
+  height: 45px;
+  border-radius: 0px;
+}
