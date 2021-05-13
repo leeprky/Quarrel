@@ -1,7 +1,7 @@
 /**
  * @name Quarral
  * @author Leeprky#2063
- * @version 0.1
+ * @version 0.5
  * @description Based Off The Quarral Client.
  * @source https://github.com/leeprky/Quarral
 */
@@ -9,7 +9,7 @@
 /*  ------------------------------------------
 
             Quarrel Theme (POWERCORD)
-                      v0.1
+                      v0.5
                 - leeprky#2063 -
 
     ------------------------------------------  */
@@ -80,7 +80,7 @@
 
 /*  ------------------------------------------
               Peninsula Configuration
-                      v0.1
+                      v0.5
                 - leeprky#2063 -
     ------------------------------------------  */
 
@@ -89,11 +89,13 @@
 
   /* Quarrel */
 
-
+  --scrollbars: none; /* none or unset */
+  --bar-background-primary: #28292c;
+  --home-icon: url(https://discord.com/assets/89576a4bb71f927eb20e8aef987b499b.svg);
   
   /* Keeping Consistancy With Discord */ 
 --serverlist-background: var(--background-tertiary);
---memberlist-background: #2F3136;
+--memberlist-background: #1e2027;
 --win-titlebar: var(--background-tertiary);
 
  /* Header Colors */
@@ -114,12 +116,12 @@
  --channeltextarea-background: var(--background-primary);
 
  /* Background Colours */
- --background-primary: #33353B;
- --background-primary-alt: #2f3136;
- --background-secondary: #2f3136;
- --background-secondary-alt: #292b2f;
- --background-tertiary: #1E2124;
- --background-accent: #4f545c;
+ --background-primary: #21232c;
+ --background-primary-alt: #21232c;
+ --background-secondary: #27292E;
+ --background-secondary-alt: #27292E;
+ --background-tertiary: #191b22;
+ --background-accent: #2f6cce;
  --background-floating: #18191c;
 
  /* Hovering Colours */
@@ -150,6 +152,13 @@
 --elevation-medium: 0 4px 4px rgba(0,0,0,0.16);
 --elevation-high: 0 8px 16px rgba(0,0,0,0.24);
 
+--scrollbar-thin-thumb: #eaedf100;
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-thumb: #e5e9ee;
+    --scrollbar-auto-track: #ebeef100;
+    --scrollbar-auto-scrollbar-color-thumb: #f0f3f8;
+    --scrollbar-auto-scrollbar-color-track: #2f313600;
+    
 /* Other */
 --radio-group-dot-foreground: var(--alt-color);
 }
@@ -169,7 +178,7 @@
     /*  ----------------------------------------------------
            ANYTHING ELSE YOU WANT TO ADD GOES BELOW
                   THIS IS FOR DEBUGGING ETC
-                         v0.1 (Quarrel)
+                         v0.5 (Quarrel)
     ----------------------------------------------------  */
 
     .icon-2yIBmh, .mainContent-2h-GEV {
@@ -333,9 +342,6 @@
           border-radius: VAR(--rs-avatar-shape);
 }
 
-:root {
-  --bar-background-primary: #35373D;
-}
 .scrollableContainer-2NUZem {
   background-color: var(--bar-background-primary);
 }
@@ -360,6 +366,7 @@
   width: 100%;
   height: var(--bar-height);
   bottom: 0;
+  box-shadow: 120px 80px 40px 20px rgba(4, 252, 252, 0.808);
 }
 #app-mount .chatContent-a9vAAp .form-2fGMdU {
   background: var(--bar-background-primary);
@@ -369,6 +376,7 @@
   margin: 0;
   margin-top: -3px;
 }
+
 #app-mount .chatContent-a9vAAp .form-2fGMdU .channelTextArea-rNsIhG {
   margin-top: 0;
   margin-bottom: 24px;
@@ -492,3 +500,56 @@
   height: 45px;
   border-radius: 0px;
 }
+
+.container-1r6BKw {
+  left: -240px;
+}
+
+.children-19S4PO {
+  right: -240px;
+}
+
+.members-1998pB {
+  background-color: var(--memberlist-background);
+  margin-top: -60px;
+}
+
+::-webkit-scrollbar{display:var(--scrollbars)}
+
+[class="button-1ZiXG9"][aria-label="Edit"] {
+  display: none;
+}
+.isHeader-2dII4U {
+  transition: 0.5s;
+  border-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
+}
+
+
+.layers-3iHuyZ>.layer-3QrUeG:first-child{
+  transform: scale(1) !important;
+  opacity: 1 !important;
+}
+.layers-3iHuyZ>.layer-3QrUeG:nth-child(2),.perksModal-fSYqOq{
+      background-color: rgba(22, 22, 22, 0.842)!important;
+      backdrop-filter: blur(8px);
+}
+.contentRegionScroller-26nc1e,.contentRegion-3nDuYy,.standardSidebarView-3F1I7i,
+.sidebarRegionScroller-3MXcoP{
+  background: transparent;
+
+}
+
+.buttons-3JBrkn [aria-label="Open GIF picker"] {
+  display: none;
+}
+.buttons-3JBrkn [aria-label="Open sticker picker"] {
+  display: none;
+}
+.buttons-3JBrkn [aria-label="Send a gift"] {
+  display: none;
+}
+
+.homeIcon-FuNwkv path{display:none}
+.homeIcon-FuNwkv,.theme-light .wrapper-1BJsBx.selected-bZ3Lue .homeIcon-FuNwkv,.theme-light .wrapper-1BJsBx:hover .homeIcon-FuNwkv,.guilds-1SWlCJ.theme-dark .homeIcon-FuNwkv{background-image:var(--home-icon);background-position:50%;background-repeat:no-repeat;background-size:28px 28px;margin:0;height:100%;width:100%}
+.theme-light .homeIcon-FuNwkv{background-image:var(--home-icon)}
