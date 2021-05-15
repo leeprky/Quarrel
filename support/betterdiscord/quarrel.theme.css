@@ -114,8 +114,7 @@
     --alt-color2: #1b5eb6; /* HEX */
     
     --scrollbars: none; /* none or unset */
-    --bar-background-primary: #1b1c22be !important;
-    --bar-background-primary-hover: #404249;
+    --bar-background-primary: #1e1f25;
     --home-icon: url(https://i.imgur.com/Bda0DuK.png);
       
       /* Keeping Consistancy With Discord */ 
