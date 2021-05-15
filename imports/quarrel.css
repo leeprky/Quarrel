@@ -739,3 +739,59 @@
 .buttonContainer-28fw2U {
   margin-right: 8px;
 }
+
+        html:root {
+          --font-display: var(--font-primary);
+      }
+
+      :root {
+        --dmh-columns: 3;
+    }
+    
+    .channel-2QD9_O[href="/channels/@me"],
+    .channel-2QD9_O[href="/library"],
+    .channel-2QD9_O[href="/store"] {
+        display: inline-flex;
+        width: calc(100% / var(--columns) - 8px);
+        margin-left: 8px;
+    }
+
+    .channel-2QD9_O[href="/library"],
+    .channel-2QD9_O[href="/store"] {
+        display: none;
+    }
+    
+    .channel-2QD9_O[href="/channels/@me"] > div,
+    .channel-2QD9_O[href="/library"] > div,
+    .channel-2QD9_O[href="/store"] > div {
+        flex: 1 1 auto;
+        position: relative;
+    }
+    
+    .channel-2QD9_O[href="/channels/@me"] .content-3QAtGj,
+    .channel-2QD9_O[href="/library"] .content-3QAtGj,
+    .channel-2QD9_O[href="/store"] .content-3QAtGj {
+        display: none;
+    }
+    
+    .channel-2QD9_O[href="/channels/@me"] .avatar-3uk_u9,
+    .channel-2QD9_O[href="/library"] .avatar-3uk_u9,
+    .channel-2QD9_O[href="/store"] .avatar-3uk_u9 {
+        margin: 0 auto;
+    }
+    
+    .channel-2QD9_O[href="/channels/@me"] .children-gzQq2t,
+    .channel-2QD9_O[href="/library"] .children-gzQq2t,
+    .channel-2QD9_O[href="/store"] .children-gzQq2t {
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        margin: 4px;
+        top: 0;
+        right: 0;
+    }
+    
+    .channel-2QD9_O .downloadProgressCircle-3_wgim {
+        width: 100%;
+        margin: 0;
+    }
