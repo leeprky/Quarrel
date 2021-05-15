@@ -822,3 +822,58 @@
 .contentColumnDefault-1VQkGM {
     max-width: unset;
 }
+
+    .sidebarRegion-VFTUkN {
+      flex-grow: 0;
+    }
+    
+    .contentColumnDefault-1VQkGM {
+      max-width: calc(100% - 60px);
+    }
+    
+    /* https://canary.discord.com/channels/538759280057122817/755015869914152981/768999383672815618 */
+    /* Winston#0441 (156990761366192128) for the original snippets */
+    /* spooky snapper#0001 (431883840483491850) for the compiled version */
+    .contentRegion-3nDuYy .contentColumn-2hrIYH {
+      max-width: 100%;
+    }
+    .contentRegion-3nDuYy .contentColumn-2hrIYH .features-2npk2D .video-34IsHk {
+      width: fit-content;
+      margin-right: auto;
+      margin-left: auto;
+    }
+    .contentRegion-3nDuYy .contentColumn-2hrIYH .features-2npk2D .feature-BGH8y4 > div:last-child {
+      width: 100%;
+    }
+    .contentRegion-3nDuYy .contentColumn-2hrIYH .features-2npk2D .feature-BGH8y4 > div:last-child > .title-PMZpEi, .contentRegion-3nDuYy .contentColumn-2hrIYH .features-2npk2D .feature-BGH8y4 > div:last-child .description-1W0DiL {
+      text-align: end;
+    }
+    .contentRegion-3nDuYy .contentColumn-2hrIYH .attendeeCTA-3ZZQWt {
+      border: 0;
+    }
+    .contentRegion-3nDuYy .content-1rPSz4 {
+      max-width: 100%;
+    }
+    .contentRegion-3nDuYy .customColumn-Rb6toI {
+      max-width: 100%;
+    }
+    .contentRegion-3nDuYy .customColumn-Rb6toI .customScroller-26gWhv > .flex-1xMQg5 {
+      max-width: 100%;
+    }
+    .contentRegion-3nDuYy .customColumn-Rb6toI .content-3YMskv {
+      max-width: 100%;
+    }
+    .customScroller-26gWhv>div {
+      max-width: 100%;
+    }
+    .contentColumnDefault-1VQkGM {
+      /* max-width: calc(83vw) !important; */
+      /* I used this to fix the QuickCSS editor, it might not work for you*/
+    }
+
+    #app-mount .unreadMentionsIndicatorBottom-2mDYbI {
+      bottom: 0px;
+  }
+  .mention-1f5kbO {
+    background-color: var(--background-accent);
+  }
