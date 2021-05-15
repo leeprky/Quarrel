@@ -1,5 +1,5 @@
 # Quarrel
-A Easy to customise bubbily discord theme with lots of **customisation/flexability** to adjust to your likings.
+A Themed Based Of The Quarrel Client In The Windows Store
 
 ![preview](https://i.imgur.com/6bvkEoD.png)
 
