@@ -119,7 +119,7 @@
 --home-icon: url(https://i.imgur.com/Bda0DuK.png);
   
   /* Keeping Consistancy With Discord */ 
- -modal-normal-primary-color: #16171a !important;
+--modal-normal-primary-color: #16171a !important;
 --modal-normal-secondary-color: #16171a !important;
 --serverlist-background: var(--background-tertiary) !important;
 --memberlist-background: #1e202700 !important;
