@@ -165,6 +165,7 @@ body{
 
 --alt-color: 27, 94, 182; /* RGB */
 --alt-color2: #1b5eb6; /* HEX */
+--spotify-color: var(--alt-color2);
 
 --scrollbars: none; /* none or unset */
 --bar-background-primary: #1b1c22;
