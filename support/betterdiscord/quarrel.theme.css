@@ -2,7 +2,7 @@
  * @name Quarrel
  * @author Leeprky#2063
  * @version 0.2
- * @description Based Off The Quarral Client.
+ * @description Based Off The Quarral Client. (TRANSPARENT)
  * @source https://github.com/leeprky/Quarral
 */
 
@@ -92,7 +92,7 @@
                       v0.2
                 - leeprky#2063 -
     ------------------------------------------  */
-    
+
 .titleBar-AC4pGV > *:nth-child(2):hover {background-color: #c05648;}
 .titleBar-AC4pGV > *:nth-child(3):hover {background-color: #f0c649;}
 .titleBar-AC4pGV > *:nth-child(4):hover {background-color: #4de64d;}
@@ -108,19 +108,21 @@
 --watermark-text: "Quarrel";
 --icon-img: url("https://i.imgur.com/BlVTpku.png");
 
+--bd-color: #1bb69f;
+--bd-color-hover: #16927f;
 --alt-color: 27, 94, 182; /* RGB */
 --alt-color2: #1b5eb6; /* HEX */
 
 --scrollbars: none; /* none or unset */
---bar-background-primary: #1b1c22;
+--bar-background-primary: #1b1c22be !important;
 --bar-background-primary-hover: #404249;
 --home-icon: url(https://i.imgur.com/Bda0DuK.png);
   
   /* Keeping Consistancy With Discord */ 
---modal-normal-primary-color: #16171a;
---modal-normal-secondary-color: #16171a;
---serverlist-background: var(--background-tertiary);
---memberlist-background: #1e2027;
+ -modal-normal-primary-color: #16171a !important;
+--modal-normal-secondary-color: #16171a !important;
+--serverlist-background: var(--background-tertiary) !important;
+--memberlist-background: #1e202700 !important;
 --win-titlebar: var(--background-tertiary);
 
  /* Header Colors */
@@ -141,13 +143,13 @@
  --channeltextarea-background: var(--background-primary);
 
  /* Background Colours */
- --background-primary: #191a1f;
- --background-primary-alt: #191a1f;
- --background-secondary: #191a1f;
- --background-secondary-alt: #191a1f;
- --background-tertiary: #191b22;
- --background-accent: #2f6cce;
- --background-floating: #18191c;
+ --background-primary: #191a1fa8 !important;
+ --background-primary-alt: #191a1fa8 !important;
+ --background-secondary: #191a1f13 !important;
+ --background-secondary-alt: #191a1f13 !important;
+ --background-tertiary: #191b2271 !important;
+ --background-accent: #2f6cce !important;
+ --background-floating: #18191c !important;
 
  /* Hovering Colours */
 --background-modifier-hover: #225ae6;
@@ -178,11 +180,11 @@
 --elevation-high: 0 8px 16px rgba(0,0,0,0.24);
 
 --scrollbar-thin-thumb: #eaedf100;
-    --scrollbar-thin-track: transparent;
-    --scrollbar-auto-thumb: #e5e9ee;
-    --scrollbar-auto-track: #ebeef100;
-    --scrollbar-auto-scrollbar-color-thumb: #f0f3f8;
-    --scrollbar-auto-scrollbar-color-track: #2f313600;
+--scrollbar-thin-track: transparent;
+--scrollbar-auto-thumb: #e5e9ee;
+--scrollbar-auto-track: #ebeef100;
+--scrollbar-auto-scrollbar-color-thumb: #f0f3f8;
+--scrollbar-auto-scrollbar-color-track: #2f313600;
     
 /* Other */
 --radio-group-dot-foreground: var(--alt-color);
@@ -194,6 +196,27 @@
 .guilds-1SWlCJ{background-color:var(--serverlist-background-light)}
 .powercord-toast .contents{background-color:var(--toast-content)}
 .withFrame-haYltI, .titleBar-AC4pGV {margin-top: var(--titlebar-top);}
+
+/* BETTERDISCORD ADDITONS */
+.activity-11LB_k {
+  background-color: rgba(0, 0, 0, 0);
+}
+.scroller-305q3I {
+  border-radius: 12px;
+}
+.theme-dark .perksModal-fSYqOq {
+  background-color: var(--background-primary);
+}
+/* Bd Blue */
+.bd-button, .bd-server-tag, .bd-addon-views .bd-view-button.selected  {
+  background-color: var(--bd-color); 
+}
+.bd-button:hover {
+  background-color: var(--bd-color-hover); 
+}
+#bd-pub-button:hover {
+  background-color: var(--bd-color-hover); 
+}
 
 /*  ----------------------------------------------------
                   Optional Features
