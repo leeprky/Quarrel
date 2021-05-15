@@ -390,7 +390,20 @@
     z-index: 0;
   }
 
-  
+      #app-mount .wrapper-3t9DeA rect {
+      x: 0;
+      y: 0;
+      width: 80%;
+      height: 100%;
+      -webkit-mask: none;
+      mask: none;
+      display: block !important;
+      rx: var(--rs-avatar-shape) !important;
+      ry: var(--rs-avatar-shape) !important;
+      fill: transparent !important;
+      stroke-width: var(--rs-width);
+  }
+
 :root {
   --rs-small-spacing: 0px;  /* Spacing between avatar and status | MUST end in px */
   --rs-large-spacing: 0px;  /* Spacing between avatar and status for user popouts & modals/profiles | MUST end in px */
