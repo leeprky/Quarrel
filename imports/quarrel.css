@@ -892,7 +892,6 @@
   }
     .clickable-1JJAn8:hover .layout-2DM8Md, .selected-aXhQR6 .layout-2DM8Md {
       background-color: var(--alt-color2);
-      backdrop-filter: brightness(20%);
       width: 250px;
       height: 43px;
       margin-left: -1px;
