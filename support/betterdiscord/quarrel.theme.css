@@ -152,7 +152,7 @@
      --background-floating: #18191c !important;
     
      /* Mentioned  Colours */
-     --background-mentioned: rgba(26, 60, 250, 0.39);
+     --background-mentioned: rgba(26, 60, 250, 0.123);
      --background-mentioned-hover: rgba(41, 26, 250, 0.08);
      --background-mentioned-bar: var(--background-accent);
     
@@ -190,6 +190,21 @@
     .powercord-toast .contents{background-color:var(--toast-content)}
     .withFrame-haYltI, .titleBar-AC4pGV {margin-top: var(--titlebar-top);}
     
+    .channel-2QD9_O .downloadProgressCircle-3_wgim {
+      width: 100%;
+      margin: 0;
+  }
+      .unread-2lAfLh {
+        background-color: var(--background-accent);
+        width: 1.5px;
+        height: 25px;
+        margin-top: -12px;
+        border-radius: 2px 2px 2px 2px;
+    }
+      .toolbar-1t6TWx a {
+        display: none;
+      }
+
     /* BETTERDISCORD ADDITONS */
     .activity-11LB_k {
       background-color: rgba(0, 0, 0, 0);
@@ -221,6 +236,7 @@
         ----------------------------------------------------  */
     
         /* Horizontal Popouts */
+        /* */
         /*
         .userPopout-3XzG_A{
           width:500px;
@@ -251,9 +267,9 @@
           background: var(--scrollbar-auto-scrollbar-color-track) ;
           background-clip: padding-box;
         }
-    
         /*  ----------------------------------------------------
                ANYTHING ELSE YOU WANT TO ADD GOES BELOW
                       THIS IS FOR DEBUGGING ETC
                              v0.2 (Quarrel)
         ----------------------------------------------------  */
+
