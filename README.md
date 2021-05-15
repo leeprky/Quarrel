@@ -25,3 +25,7 @@ For **Betterdiscord** Users:
 
 Thank you for checking out/downloading my Theme :)
 Direct Message Me On @Discord Or Join By **[github.com/leeprky](https://discord.gg/Ff3rqAYB89)** For More Help/Information For Installing/Support. Enjoy :)
+
+
+Compared To Original
+![preview](https://i.imgur.com/A8h0SjQ.png)
