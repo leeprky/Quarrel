@@ -14,250 +14,246 @@
 
     ------------------------------------------  */
 
-@import url(https://raw.githack.com/leeprky/Quarrel/main/imports/quarrel.css);
+    @import url(https://raw.githack.com/leeprky/Quarrel/main/imports/quarrel.css);
 
-/* Sources */
-@import url(https://raw.githack.com/leeprky/MyThemesBasesStuffYeah/lode/alt-color.css);
-@import url(https://raw.githack.com/leeprky/FullyThemedDiscord/main/FullyThemedDiscord.theme.css);
-
-@import url(https://raw.githack.com/snappercord/Settings-Icons/main/settingsicons.css);
-@import url(https://ghostmander.github.io/discordfont/DiscordFont.css);
-
-/** Custom Gradient Names **/
-@import url("https://discord-custom-gradient-names.github.io/gradient/dist/main.min.css");
-
-
-/* ===========================================
-         USRBG Popouts by Tropix126.
-=========================================== */
-
-@import url('https://discord-custom-covers.github.io/usrbg/dist/usrbg.css');
-
-.userPopout-3XzG_A {
-	transform:translateZ(0);
-}
-
-.userPopout-3XzG_A .wrapper-3t9DeA::after {
-	content: '';
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	z-index: -1;
-	pointer-events: none;
-	opacity: .5;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: var(--user-popout-position) center;
-	background-image: var(--user-background);
-	-webkit-mask-image: linear-gradient(#000, transparent);
-}
-
-.userPopout-3XzG_A  .header-2BwW8b,
-.userPopout-3XzG_A  .scroller-2FKFPG,
-.userPopout-3XzG_A  .footer-1fjuF6 {
-	z-index: 1;
-}
-
-.root-SR8cQa {
-  transform: translateZ(0);
-}
-.header-QKLPzZ .wrapper-3t9DeA::before {
-  content: '';
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: .5;
-  pointer-events: none;
-  background: var(--user-background) center/cover no-repeat;
-  -webkit-mask: linear-gradient(black, transparent 80%);
-}
-
-.headerInfo-30uryT,
-.tabBarItem-1b8RUP,
-.activity-1ythUs {
-  z-index: 1;
-  position: relative;
-}
-
-/* ===========================================
-         USRBG Popouts by Tropix126.
-=========================================== */
-
-/*  ------------------------------------------
-              Quarral Configuration
-                      v0.2
-                - leeprky#2063 -
-    ------------------------------------------  */
-
-.titleBar-AC4pGV > *:nth-child(2):hover {background-color: #c05648;}
-.titleBar-AC4pGV > *:nth-child(3):hover {background-color: #f0c649;}
-.titleBar-AC4pGV > *:nth-child(4):hover {background-color: #4de64d;}
-
-/* Quarrel Dark */
-.theme-dark {
-
-  /* Quarrel */
-
---titlebar-top:  4px;
---icon-top: 0.5px;
---watermark-top: 5.5px;
---watermark-text: "Quarrel";
---icon-img: url("https://i.imgur.com/BlVTpku.png");
-
---bd-color: #1B5EB6;
---bd-color-hover: #164a8f;
---alt-color: 27, 94, 182; /* RGB */
---alt-color2: #1b5eb6; /* HEX */
-
---scrollbars: none; /* none or unset */
---bar-background-primary: #1b1c22be !important;
---bar-background-primary-hover: #404249;
---home-icon: url(https://i.imgur.com/Bda0DuK.png);
-  
-  /* Keeping Consistancy With Discord */ 
---modal-normal-primary-color: #16171a !important;
---modal-normal-secondary-color: #16171a !important;
---serverlist-background: var(--background-tertiary) !important;
---memberlist-background: #1e202700 !important;
---win-titlebar: var(--background-tertiary);
-
- /* Header Colors */
- --header-primary: #fff;
- --header-secondary: #b9bbbe;
-
- /* Text Colours */
- --text-normal: #dcddde;
- --text-muted: #72767d;
- --text-link: #00b0f4;
- --channels-default: #8e9297;
- --interactive-normal: #b9bbbe;
- --interactive-hover: #dcddde;
- --interactive-active: #fff;
- --interactive-muted: #4f545c;
-
- /* Chat */
- --channeltextarea-background: var(--background-primary);
-
- /* Background Colours */
- --background-primary: #191a1fa8 !important;
- --background-primary-alt: #191a1fa8 !important;
- --background-secondary: #191a1f13 !important;
- --background-secondary-alt: #191a1f13 !important;
- --background-tertiary: #191b2271 !important;
- --background-accent: #2f6cce !important;
- --background-floating: #18191c !important;
-
- /* Hovering Colours */
---background-modifier-hover: #225ae6;
---background-modifier-active: rgba(56, 168, 151, 0.911);
---background-modifier-selected: rgba(9, 238, 204, 0.952);
---background-modifier-accent: rgba(56, 168, 151, 0.979);
---background-message-hover: transparent;
-
- /* Mentioned  Colours */
- --background-mentioned: rgba(250,166,26,0.05);
- --background-mentioned-hover: rgba(250,166,26,0.08);
- --background-mentioned-bar: var(--background-accent);
-
- --background-help-warning: rgba(250,166,26,0.1);
- --background-help-info: rgba(0,176,244,0.1);
-
- /* Scrollbar Colours */
- --background-modifier-hover: rgba(79,84,92,0.16);
- --background-modifier-active: rgba(79,84,92,0.24);
- --background-modifier-selected: rgba(79,84,92,0.32);
- --background-modifier-accent: hsla(0,0%,100%,0.06);
- --scrollbar-auto-scrollbar-color-thumb: rgba(79,84,92,0.16);
-
-/* Box Shadow On Floating Elements Colours */
---elevation-stroke: 0 0 0 1px rgba(4,4,5,0.15);
---elevation-low: 0 1px 0 rgba(4,4,5,0.2),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05);
---elevation-medium: 0 4px 4px rgba(0,0,0,0.16);
---elevation-high: 0 8px 16px rgba(0,0,0,0.24);
-
---scrollbar-thin-thumb: #eaedf100;
---scrollbar-thin-track: transparent;
---scrollbar-auto-thumb: #e5e9ee;
---scrollbar-auto-track: #ebeef100;
---scrollbar-auto-scrollbar-color-thumb: #f0f3f8;
---scrollbar-auto-scrollbar-color-track: #2f313600;
+    /* Sources */
+    @import url(https://raw.githack.com/leeprky/MyThemesBasesStuffYeah/lode/alt-color.css);
+    @import url(https://raw.githack.com/leeprky/FullyThemedDiscord/main/FullyThemedDiscord.theme.css);
     
-/* Other */
---radio-group-dot-foreground: var(--alt-color);
-}
+    @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
+    @import url(https://ghostmander.github.io/discordfont/DiscordFont.css);
+    
+    /** Custom Gradient Names **/
+    @import url("https://discord-custom-gradient-names.github.io/gradient/dist/main.min.css");
+    
+    
+    /* ===========================================
+             USRBG Popouts by Tropix126.
+    =========================================== */
+    
+    @import url('https://discord-custom-covers.github.io/usrbg/dist/usrbg.css');
 
-/* Extras */
-.guilds-1SWlCJ{background-color:var(--serverlist-background)}
-.members-1998pB,.members-1998pB>div{background-color:var(--memberlist-background)}
-.guilds-1SWlCJ{background-color:var(--serverlist-background-light)}
-.powercord-toast .contents{background-color:var(--toast-content)}
-.withFrame-haYltI, .titleBar-AC4pGV {margin-top: var(--titlebar-top);}
-
-/* BETTERDISCORD ADDITONS */
-.activity-11LB_k {
-  background-color: rgba(0, 0, 0, 0);
-}
-.scroller-305q3I {
-  border-radius: 12px;
-}
-.theme-dark .perksModal-fSYqOq {
-  background-color: var(--background-primary);
-}
-/* Bd Blue */
-.bd-button, .bd-server-tag, .bd-addon-views .bd-view-button.selected  {
-  background-color: var(--bd-color); 
-}
-.bd-button:hover {
-  background-color: var(--bd-color-hover); 
-}
-#bd-pub-button:hover {
-  background-color: var(--bd-color-hover); 
-}
-
-/*  ----------------------------------------------------
-                  Optional Features
-        Add A "/*" On The Lines Below The Comments
-                  To Disable Them
-    ----------------------------------------------------  */
-
-    /* Horizontal Popouts */
-    /* */
-    .userPopout-3XzG_A{
-      width:500px;
-      -webkit-box-orient: horizontal;
-      flex-direction: row;
-      height: 200px;
+    .userPopout-3XzG_A {
+      transform:translateZ(0);
     }
-    .footer-1fjuF6{
-      display: none;
+    
+    .userPopout-3XzG_A .wrapper-3t9DeA::after {
+      content: '';
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      pointer-events: none;
+      opacity: .5;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: var(--user-popout-position) center;
+      background-image: var(--user-background);
+      -webkit-mask-image: linear-gradient(#000, transparent);
     }
-    .header-2BwW8b{
-      width:250px;
-      overflow: hidden auto;
+    
+    .userPopout-3XzG_A  .header-2BwW8b,
+    .userPopout-3XzG_A  .scroller-2FKFPG,
+    .userPopout-3XzG_A  .footer-1fjuF6 {
+      z-index: 1;
     }
-    .header-2BwW8b::-webkit-scrollbar {
-      width: 8px;
-      border-radius: 8px;
+    
+    .root-SR8cQa {
+      transform: translateZ(0);
     }
-    .header-2BwW8b::-webkit-scrollbar-track {
-      background: transparent;
-      border: 2px solid transparent;
-      margin-bottom: 2px;
-      margin-top: 2px;
+    .header-QKLPzZ .wrapper-3t9DeA::before {
+      content: '';
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: .5;
+      pointer-events: none;
+      background: var(--user-background) center/cover no-repeat;
+      -webkit-mask: linear-gradient(black, transparent 80%);
     }
-    .header-2BwW8b::-webkit-scrollbar-thumb {
-      border: 2px solid transparent;
-      border-radius: 4px;
-      background: var(--scrollbar-auto-scrollbar-color-track) ;
-      background-clip: padding-box;
+    
+    .headerInfo-30uryT,
+    .tabBarItem-1b8RUP,
+    .activity-1ythUs {
+      z-index: 1;
+      position: relative;
     }
-
+    
+    /* ===========================================
+             USRBG Popouts by Tropix126.
+    =========================================== */
+    
+    /*  ------------------------------------------
+                  Quarral Configuration
+                          v0.2
+                    - leeprky#2063 -
+        ------------------------------------------  */
+    
+    .titleBar-AC4pGV > *:nth-child(2):hover {background-color: #c05648;}
+    .titleBar-AC4pGV > *:nth-child(3):hover {background-color: #f0c649;}
+    .titleBar-AC4pGV > *:nth-child(4):hover {background-color: #4de64d;}
+    
+    /* Quarrel Dark */
+    .theme-dark {
+    
+      /* Quarrel */
+    
+    --titlebar-top:  4px;
+    --icon-top: 0.5px;
+    --watermark-top: 5.5px;
+    --watermark-text: "Quarrel";
+    --icon-img: url("https://i.imgur.com/BlVTpku.png");
+    
+    --bd-color: #1B5EB6;
+    --bd-color-hover: #164a8f;
+    --alt-color: 27, 94, 182; /* RGB */
+    --alt-color2: #1b5eb6; /* HEX */
+    
+    --scrollbars: none; /* none or unset */
+    --bar-background-primary: #1b1c22be !important;
+    --bar-background-primary-hover: #404249;
+    --home-icon: url(https://i.imgur.com/Bda0DuK.png);
+      
+      /* Keeping Consistancy With Discord */ 
+    --modal-normal-primary-color: #16171a !important;
+    --modal-normal-secondary-color: #16171a !important;
+    --serverlist-background: var(--background-tertiary) !important;
+    --memberlist-background: #1e2027c2 !important;
+    --win-titlebar: var(--background-tertiary);
+    
+     /* Header Colors */
+     --header-primary: #fff;
+     --header-secondary: #b9bbbe;
+    
+     /* Text Colours */
+     --text-normal: #dcddde;
+     --text-muted: #72767d;
+     --text-link: #00b0f4;
+     --channels-default: #8e9297;
+     --interactive-normal: #b9bbbe;
+     --interactive-hover: #dcddde;
+     --interactive-active: #fff;
+     --interactive-muted: #4f545c;
+    
+     /* Chat */
+     --channeltextarea-background: var(--background-primary);
+    
+     /* Background Colours */
+     --background-primary: #191a1fe1 !important;
+     --background-primary-alt: #191a1fa8 !important;
+     --background-secondary: #191a1fc4 !important;
+     --background-secondary-alt: #191a1f13 !important;
+     --background-tertiary: #191b2271 !important;
+     --background-accent: #2f6cce !important;
+     --background-floating: #18191c !important;
+    
+     /* Mentioned  Colours */
+     --background-mentioned: rgba(26, 60, 250, 0.39);
+     --background-mentioned-hover: rgba(41, 26, 250, 0.08);
+     --background-mentioned-bar: var(--background-accent);
+    
+     --background-help-warning: rgba(250,166,26,0.1);
+     --background-help-info: rgba(0,176,244,0.1);
+    
+     /* Scrollbar Colours */
+     --background-modifier-hover: rgba(79,84,92,0.16);
+     --background-modifier-active: rgba(79,84,92,0.24);
+     --background-modifier-selected: rgba(79,84,92,0.32);
+     --background-modifier-accent: hsla(0,0%,100%,0.06);
+     --scrollbar-auto-scrollbar-color-thumb: rgba(79,84,92,0.16);
+    
+    /* Box Shadow On Floating Elements Colours */
+    --elevation-stroke: 0 0 0 1px rgba(4,4,5,0.15);
+    --elevation-low: 0 1px 0 rgba(4,4,5,0.2),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05);
+    --elevation-medium: 0 4px 4px rgba(0,0,0,0.16);
+    --elevation-high: 0 8px 16px rgba(0,0,0,0.24);
+    
+    --scrollbar-thin-thumb: #eaedf100;
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-thumb: #e5e9ee;
+    --scrollbar-auto-track: #ebeef100;
+    --scrollbar-auto-scrollbar-color-thumb: #f0f3f8;
+    --scrollbar-auto-scrollbar-color-track: #2f313600;
+        
+    /* Other */
+    --radio-group-dot-foreground: var(--alt-color);
+    }
+    
+    /* Extras */
+    .guilds-1SWlCJ{background-color:var(--serverlist-background)}
+    .members-1998pB,.members-1998pB>div{background-color:var(--memberlist-background)}
+    .guilds-1SWlCJ{background-color:var(--serverlist-background-light)}
+    .powercord-toast .contents{background-color:var(--toast-content)}
+    .withFrame-haYltI, .titleBar-AC4pGV {margin-top: var(--titlebar-top);}
+    
+    /* BETTERDISCORD ADDITONS */
+    .activity-11LB_k {
+      background-color: rgba(0, 0, 0, 0);
+    }
+    .scroller-305q3I {
+      border-radius: 12px;
+    }
+    .theme-dark .perksModal-fSYqOq {
+      background-color: var(--background-primary);
+    }
+    /* Bd Blue */
+    .bd-button, .bd-server-tag, .bd-addon-views .bd-view-button.selected  {
+      background-color: var(--bd-color); 
+    }
+    .bd-button:hover {
+      background-color: var(--bd-color-hover); 
+    }
+    #bd-pub-button:hover {
+      background-color: var(--bd-color-hover); 
+    }
+    .horizontal-1ae9ci {
+      margin-left: 35px;
+    }
+    
     /*  ----------------------------------------------------
-           ANYTHING ELSE YOU WANT TO ADD GOES BELOW
-                  THIS IS FOR DEBUGGING ETC
-                         v0.2 (Quarrel)
-    ----------------------------------------------------  */
+                      Optional Features
+            Add A "/*" On The Lines Below The Comments
+                      To Disable Them
+        ----------------------------------------------------  */
+    
+        /* Horizontal Popouts */
+        /* */
+        .userPopout-3XzG_A{
+          width:500px;
+          -webkit-box-orient: horizontal;
+          flex-direction: row;
+          height: 200px;
+        }
+        .footer-1fjuF6{
+          display: none;
+        }
+        .header-2BwW8b{
+          width:250px;
+          overflow: hidden auto;
+        }
+        .header-2BwW8b::-webkit-scrollbar {
+          width: 8px;
+          border-radius: 8px;
+        }
+        .header-2BwW8b::-webkit-scrollbar-track {
+          background: transparent;
+          border: 2px solid transparent;
+          margin-bottom: 2px;
+          margin-top: 2px;
+        }
+        .header-2BwW8b::-webkit-scrollbar-thumb {
+          border: 2px solid transparent;
+          border-radius: 4px;
+          background: var(--scrollbar-auto-scrollbar-color-track) ;
+          background-clip: padding-box;
+        }
+    
+        /*  ----------------------------------------------------
+               ANYTHING ELSE YOU WANT TO ADD GOES BELOW
+                      THIS IS FOR DEBUGGING ETC
+                             v0.2 (Quarrel)
+        ----------------------------------------------------  */
