@@ -143,11 +143,11 @@
      --channeltextarea-background: var(--background-primary);
     
      /* Background Colours */
-     --background-primary: #191a1fe1 !important;
+     --background-primary: #191a1fd0 !important;
      --background-primary-alt: #191a1fa8 !important;
-     --background-secondary: #191a1fc4 !important;
+     --background-secondary: #191a1f8e !important;
      --background-secondary-alt: #191a1f13 !important;
-     --background-tertiary: #191b2271 !important;
+     --background-tertiary: #191b2250 !important;
      --background-accent: #2f6cce !important;
      --background-floating: #18191c !important;
     
