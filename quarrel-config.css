@@ -192,7 +192,7 @@ body{
 --background-message-hover: transparent;
 
  /* Mentioned  Colours */
- --background-mentioned: rgba(250,166,26,0.05);
+ --background-mentioned: rgba(26, 60, 250, 0.123);
  --background-mentioned-hover: rgba(250,166,26,0.08);
  --background-mentioned-bar: var(--background-accent);
 
