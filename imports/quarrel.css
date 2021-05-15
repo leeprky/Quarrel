@@ -795,3 +795,30 @@
         width: 100%;
         margin: 0;
     }
+        .unread-2lAfLh {
+          background-color: var(--background-accent);
+          width: 1.5px;
+          height: 25px;
+          margin-top: -12px;
+          border-radius: 2px 2px 2px 2px;
+      }
+        .toolbar-1t6TWx a {
+          display: none;
+        }
+
+        :root {
+          --custom-sidebar-width: 240px;
+      }
+      
+      .sidebar-2K8pFh,
+      .members-1998pB {
+          width: var(--custom-sidebar-width);
+      }
+      
+      .member-3-YXUe {
+          max-width: var(--custom-sidebar-width);
+      }
+
+.contentColumnDefault-1VQkGM {
+    max-width: unset;
+}
