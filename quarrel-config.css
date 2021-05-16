@@ -144,15 +144,18 @@ body{
 
 --alt-color: 27, 94, 182; /* RGB */
 --alt-color2: #1b5eb6; /* HEX */
---spotify-color: var(--alt-color2);
 
 --scrollbars: none; /* none or unset */
 --bar-background-primary: #1e1f25;
 --home-icon: url(https://i.imgur.com/Bda0DuK.png);
   
+--modal-normal-primary-color: #0b0c0ffd;
+--modal-normal-secondary-color: #111318;
+--playing-color: var(--alt-color2);
+--spotify-color: rgb(37, 129, 18);
+--streaming-color: rgb(127, 50, 179);
+
   /* Keeping Consistancy With Discord */ 
---modal-normal-primary-color: #16171a;
---modal-normal-secondary-color: #16171a;
 --serverlist-background: var(--background-tertiary);
 --memberlist-background: #1e2027;
 --win-titlebar: var(--background-tertiary);
@@ -172,7 +175,8 @@ body{
  --interactive-muted: #4f545c;
 
  /* Chat */
- --channeltextarea-background: var(--background-primary);
+ --channeltextarea-background: var(--bar-background-primary);
+ --channeltextarea-background-hover: var(--bar-background-primary);
 
  /* Background Colours */
  --background-primary: #191a1f;
@@ -199,11 +203,11 @@ body{
  --background-help-info: rgba(0,176,244,0.1);
 
  /* Scrollbar Colours */
- --background-modifier-hover: rgba(79,84,92,0.16);
- --background-modifier-active: rgba(79,84,92,0.24);
- --background-modifier-selected: rgba(79,84,92,0.32);
- --background-modifier-accent: hsla(0,0%,100%,0.06);
- --scrollbar-auto-scrollbar-color-thumb: rgba(79,84,92,0.16);
+ --background-modifier-hover: rgba(67, 87, 119, 0.16);
+ --background-modifier-active: rgba(66, 122, 211, 0.315);
+ --background-modifier-selected: rgba(74, 96, 133, 0.32);
+ --background-modifier-accent: rgba(255, 255, 255, 0.06);
+ --scrollbar-auto-scrollbar-color-thumb: rgba(64, 93, 139, 0.16);
 
 /* Box Shadow On Floating Elements Colours */
 --elevation-stroke: 0 0 0 1px rgba(4,4,5,0.15);
@@ -236,7 +240,7 @@ body{
     ----------------------------------------------------  */
 
     /* Horizontal Popouts */
-    /* */
+    /* 
     .userPopout-3XzG_A{
       width:500px;
       -webkit-box-orient: horizontal;
