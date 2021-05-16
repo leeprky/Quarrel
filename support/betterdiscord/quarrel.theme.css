@@ -117,9 +117,13 @@
     --bar-background-primary: #1e1f25;
     --home-icon: url(https://i.imgur.com/Bda0DuK.png);
       
+    --modal-normal-primary-color: #0b0c0ffd;
+    --modal-normal-secondary-color: #111318;
+    --playing-color: var(--alt-color2);
+    --spotify-color: rgb(37, 129, 18);
+    --streaming-color: rgb(127, 50, 179);
+                
       /* Keeping Consistancy With Discord */ 
-    --modal-normal-primary-color: #16171a !important;
-    --modal-normal-secondary-color: #16171a !important;
     --serverlist-background: var(--background-tertiary) !important;
     --memberlist-background: #1e2027c2 !important;
     --win-titlebar: var(--background-tertiary);
@@ -139,7 +143,8 @@
      --interactive-muted: #4f545c;
     
      /* Chat */
-     --channeltextarea-background: var(--background-primary);
+     --channeltextarea-background: var(--bar-background-primary);
+     --channeltextarea-background-hover: var(--bar-background-primary);
     
      /* Background Colours */
      --background-primary: #191a1fd0 !important;
