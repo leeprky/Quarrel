@@ -147,11 +147,11 @@
      --channeltextarea-background-hover: var(--bar-background-primary);
     
      /* Background Colours */
-  --background-primary: #191a1fbb !important;
-  --background-primary-alt: #191a1fcc !important;
-  --background-secondary: #1b1c2286 !important;
-  --background-secondary-alt: #191a1fc2 !important;
-  --background-tertiary: #191b222d !important;
+  --background-primary: #191a1fd0 !important;
+  --background-primary-alt: #191a1fd0 !important;
+  --background-secondary: #1b1c228a !important;
+  --background-secondary-alt: #1b1c228a !important;
+  --background-tertiary: #191b2260 !important;
   --background-accent: #2f6cce !important;
   --background-floating: #18191c !important;
     
