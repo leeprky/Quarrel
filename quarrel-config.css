@@ -101,11 +101,11 @@ body{
   background: #1b1c22c7;
 }
 .theme-dark {
-  --background-primary: #191a1fbb !important;
+  --background-primary: #191a1ff3 !important;
   --background-primary-alt: #191a1fcc !important;
-  --background-secondary: #1b1c2286 !important;
+  --background-secondary: #1b1c226c !important;
   --background-secondary-alt: #191a1fc2 !important;
-  --background-tertiary: #191b222d !important;
+  --background-tertiary: #191b2233 !important;
   --background-accent: #2f6cce !important;
   --background-floating: #18191c !important;
   --bar-background-primary: #1b1c2281 !important;
