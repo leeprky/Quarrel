@@ -126,12 +126,29 @@ body{
                       v1.0
                 - leeprky#2063 -
     ------------------------------------------  */
-    
+
+/* Win Bar Colours On Hover */
 .titleBar-AC4pGV > *:nth-child(2):hover {background-color: #c05648;}
 .titleBar-AC4pGV > *:nth-child(3):hover {background-color: #f0c649;}
 .titleBar-AC4pGV > *:nth-child(4):hover {background-color: #4de64d;}
 
 /* Quarrel Dark */
+
+:root {
+  --rs-small-spacing: 0px;  /* Spacing between avatar and status | MUST end in px */
+  --rs-large-spacing: 0px;  /* Spacing between avatar and status for user popouts & modals/profiles | MUST end in px */
+  --rs-width: 2px;  /* Width/thickness of status border */
+  --rs-avatar-shape: 50%;  /* 50% for round - 0% for square */
+  --rs-online-color: #1df594;  /* Colour for online status */
+  --rs-idle-color: #faa61a;  /* Colour for idle status */
+  --rs-dnd-color: #f04747;  /* Colour for dnd status */
+  --rs-offline-color: #636b75;  /* Colour for offline status */
+  --rs-streaming-color: #643da7;  /* Colour for streaming status */
+  --rs-invisible-color: #747f8d;  /* Colour for invisible status - Note: this will only show for your own invisibility */
+  --rs-phone-visible: block; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
+  --rs-phone-color: var(--rs-online-color); /* Colour of the ring and phone icon when a user is on their phone |  */
+}
+
 .theme-dark {
 
   /* Quarrel */
