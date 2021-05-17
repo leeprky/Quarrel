@@ -98,14 +98,14 @@ body{
 	border-color: transparent;
 }
 #app-mount .guilds-1SWlCJ .scrollerBase-289Jih {
-  background: transparent;
+  background: #1b1c22c7;
 }
 .theme-dark {
-  --background-primary: #191a1fcc !important;
-  --background-primary-alt: #191a1f83 !important;
-  --background-secondary: #1b1c2288 !important;
-  --background-secondary-alt: #191a1f25 !important;
-  --background-tertiary: #191b2200 !important;
+  --background-primary: #191a1fbb !important;
+  --background-primary-alt: #191a1fcc !important;
+  --background-secondary: #1b1c2286 !important;
+  --background-secondary-alt: #191a1fc2 !important;
+  --background-tertiary: #191b222d !important;
   --background-accent: #2f6cce !important;
   --background-floating: #18191c !important;
   --bar-background-primary: #1b1c2281 !important;
