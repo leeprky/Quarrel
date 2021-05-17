@@ -132,7 +132,7 @@ body{
 .titleBar-AC4pGV > *:nth-child(3):hover {background-color: #f0c649;}
 .titleBar-AC4pGV > *:nth-child(4):hover {background-color: #4de64d;}
 
-/* Quarrel Dark */
+/* Status */
 
 :root {
   --rs-small-spacing: 0px;  /* Spacing between avatar and status | MUST end in px */
