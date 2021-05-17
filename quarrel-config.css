@@ -108,7 +108,7 @@ body{
   --background-tertiary: #1d1f2b3f !important;
   --background-accent: #2f6cce !important;
   --background-floating: #18191c !important;
-  --bar-background-primary: #1b1c2281 !important;
+  --bar-background-primary: #24263181 !important;
   --serverlist-background: var(--background-tertiary) !important;
   --memberlist-background: #1e202700 !important;
 };
