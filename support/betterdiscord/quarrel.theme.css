@@ -114,7 +114,7 @@
     --alt-color2: #1b5eb6; /* HEX */
     
     --scrollbars: none; /* none or unset */
-    --bar-background-primary: #1e1f25;
+  --bar-background-primary: #1b1c2281 !important;
     --home-icon: url(https://i.imgur.com/Bda0DuK.png);
       
     --modal-normal-primary-color: #0b0c0ffd;
@@ -124,8 +124,8 @@
     --streaming-color: rgb(127, 50, 179);
                 
       /* Keeping Consistancy With Discord */ 
-    --serverlist-background: var(--background-tertiary) !important;
-    --memberlist-background: #1e2027c2 !important;
+  --serverlist-background: var(--background-tertiary) !important;
+  --memberlist-background: #1e202700 !important;
     --win-titlebar: var(--background-tertiary);
     
      /* Header Colors */
@@ -147,13 +147,13 @@
      --channeltextarea-background-hover: var(--bar-background-primary);
     
      /* Background Colours */
-     --background-primary: #191a1fd0 !important;
-     --background-primary-alt: #191a1fa8 !important;
-     --background-secondary: #191a1f8e !important;
-     --background-secondary-alt: #191a1f13 !important;
-     --background-tertiary: #191b2250 !important;
-     --background-accent: #2f6cce !important;
-     --background-floating: #18191c !important;
+  --background-primary: #191a1fbb !important;
+  --background-primary-alt: #191a1fcc !important;
+  --background-secondary: #1b1c2286 !important;
+  --background-secondary-alt: #191a1fc2 !important;
+  --background-tertiary: #191b222d !important;
+  --background-accent: #2f6cce !important;
+  --background-floating: #18191c !important;
     
      /* Mentioned  Colours */
      --background-mentioned: rgba(26, 60, 250, 0.123);
