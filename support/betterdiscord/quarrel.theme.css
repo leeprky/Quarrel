@@ -7,92 +7,90 @@
 */
 
 /*  ------------------------------------------
-
             Quarrel Theme (BetterDiscord)
                       v1.0
                 - leeprky#2063 -
-
     ------------------------------------------  */
 
-@import url(https://leeprky.github.io/themes/quarrel/quarrel.css);
+    @import url(https://leeprky.github.io/themes/quarrel/quarrel.css);
 
-/* Sources */
-@import url(https://leeprky.github.io/themes/BaseStuff/alt-color.css);
-@import url(https://leeprky.github.io/themes/FullyThemedDiscord/FullyThemedDiscord.css);
+    /* Sources */
+    @import url(https://raw.githack.com/leeprky/MyThemesBasesStuffYeah/lode/alt-color.css);
+    @import url(https://raw.githack.com/leeprky/FullyThemedDiscord/main/FullyThemedDiscord.theme.css);
+    
+    @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
+    @import url(https://ghostmander.github.io/discordfont/DiscordFont.css);
+    
+    /** Custom Gradient Names **/
+    @import url("https://discord-custom-gradient-names.github.io/gradient/dist/main.min.css");
+    
+    
+    /* ===========================================
+             USRBG Popouts by Tropix126.
+    =========================================== */
+    
+    @import url('https://discord-custom-covers.github.io/usrbg/dist/usrbg.css');
 
-@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
-@import url(https://ghostmander.github.io/discordfont/DiscordFont.css);
-
-/** Custom Gradient Names **/
-@import url("https://discord-custom-gradient-names.github.io/gradient/dist/main.min.css");
-
-
-/* ===========================================
-         USRBG Popouts by Tropix126.
-=========================================== */
-
-@import url('https://discord-custom-covers.github.io/usrbg/dist/usrbg.css');
-
-.userPopout-3XzG_A {
-	transform:translateZ(0);
-}
-
-.userPopout-3XzG_A .wrapper-3t9DeA::after {
-	content: '';
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	z-index: -1;
-	pointer-events: none;
-	opacity: .5;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: var(--user-popout-position) center;
-	background-image: var(--user-background);
-	-webkit-mask-image: linear-gradient(#000, transparent);
-}
-
-.userPopout-3XzG_A  .header-2BwW8b,
-.userPopout-3XzG_A  .scroller-2FKFPG,
-.userPopout-3XzG_A  .footer-1fjuF6 {
-	z-index: 1;
-}
-
-.root-SR8cQa {
-  transform: translateZ(0);
-}
-.header-QKLPzZ .wrapper-3t9DeA::before {
-  content: '';
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: .5;
-  pointer-events: none;
-  background: var(--user-background) center/cover no-repeat;
-  -webkit-mask: linear-gradient(black, transparent 80%);
-}
-
-.headerInfo-30uryT,
-.tabBarItem-1b8RUP,
-.activity-1ythUs {
-  z-index: 1;
-  position: relative;
-}
-
-/* ===========================================
-         USRBG Popouts by Tropix126.
-=========================================== */
-
-/*  ------------------------------------------
-              Quarral Configuration
-                      v1.0
-                - leeprky#2063 -
-    ------------------------------------------  */
-
+    .userPopout-3XzG_A {
+      transform:translateZ(0);
+    }
+    
+    .userPopout-3XzG_A .wrapper-3t9DeA::after {
+      content: '';
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      pointer-events: none;
+      opacity: .5;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: var(--user-popout-position) center;
+      background-image: var(--user-background);
+      -webkit-mask-image: linear-gradient(#000, transparent);
+    }
+    
+    .userPopout-3XzG_A  .header-2BwW8b,
+    .userPopout-3XzG_A  .scroller-2FKFPG,
+    .userPopout-3XzG_A  .footer-1fjuF6 {
+      z-index: 1;
+    }
+    
+    .root-SR8cQa {
+      transform: translateZ(0);
+    }
+    .header-QKLPzZ .wrapper-3t9DeA::before {
+      content: '';
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: .5;
+      pointer-events: none;
+      background: var(--user-background) center/cover no-repeat;
+      -webkit-mask: linear-gradient(black, transparent 80%);
+    }
+    
+    .headerInfo-30uryT,
+    .tabBarItem-1b8RUP,
+    .activity-1ythUs {
+      z-index: 1;
+      position: relative;
+    }
+    
+    /* ===========================================
+             USRBG Popouts by Tropix126.
+    =========================================== */
+    
+    /*  ------------------------------------------
+                  Quarral Configuration
+                          v1.0
+                    - leeprky#2063 -
+        ------------------------------------------  */
+    
 /* Win Bar Colours On Hover */
 .titleBar-AC4pGV > *:nth-child(2):hover {background-color: #c05648;}
 .titleBar-AC4pGV > *:nth-child(3):hover {background-color: #f0c649;}
@@ -115,153 +113,183 @@
   --rs-phone-color: var(--rs-online-color); /* Colour of the ring and phone icon when a user is on their phone |  */
 }
 
-.theme-dark {
-
-  /* Quarrel */
-
---titlebar-top:  0px;
---icon-top: 3px;
---watermark-top: 7.5px;
---watermark-text: "Quarrel";
---icon-img: url("https://i.imgur.com/BlVTpku.png");
-
---alt-color: 27, 94, 182; /* RGB */
---alt-color2: #1b5eb6; /* HEX */
-
---scrollbars: none; /* none or unset */
---bar-background-primary: #1e1f25;
---home-icon: url(https://i.imgur.com/Bda0DuK.png);
-  
---modal-normal-primary-color: #0b0c0ffd;
---modal-normal-secondary-color: #111318;
---playing-color: var(--alt-color2);
---spotify-color: rgb(37, 129, 18);
---streaming-color: rgb(127, 50, 179);
-
-  /* Keeping Consistancy With Discord */ 
---serverlist-background: var(--background-tertiary);
---memberlist-background: #1e2027;
---win-titlebar: var(--background-tertiary);
-
- /* Header Colors */
- --header-primary: #fff;
- --header-secondary: #b9bbbe;
-
- /* Text Colours */
- --text-normal: #dcddde;
- --text-muted: #72767d;
- --text-link: #00b0f4;
- --channels-default: #8e9297;
- --interactive-normal: #b9bbbe;
- --interactive-hover: #dcddde;
- --interactive-active: #fff;
- --interactive-muted: #4f545c;
-
- /* Chat */
- --channeltextarea-background: var(--bar-background-primary);
- --channeltextarea-background-hover: var(--bar-background-primary);
-
- /* Background Colours */
- --background-primary: #191a1f;
- --background-primary-alt: #191a1f;
- --background-secondary: #191a1f;
- --background-secondary-alt: #191a1f;
- --background-tertiary: #191b2286;
- --background-accent: #2f6cce;
- --background-floating: #18191c;
-
- /* Hovering Colours */
---background-modifier-hover: #225ae6;
---background-modifier-active: rgba(56, 168, 151, 0.911);
---background-modifier-selected: rgba(9, 238, 204, 0.952);
---background-modifier-accent: rgba(56, 168, 151, 0.979);
---background-message-hover: transparent;
-
- /* Mentioned  Colours */
- --background-mentioned: rgba(26, 60, 250, 0.123);
- --background-mentioned-hover: rgba(26, 60, 250, 0.103);
- --background-mentioned-bar: var(--background-accent);
-
- --background-help-warning: rgba(250,166,26,0.1);
- --background-help-info: rgba(0,176,244,0.1);
-
- /* Scrollbar Colours */
- --background-modifier-hover: rgba(67, 87, 119, 0.16);
- --background-modifier-active: rgba(66, 122, 211, 0.315);
- --background-modifier-selected: rgba(74, 96, 133, 0.32);
- --background-modifier-accent: rgba(255, 255, 255, 0.06);
- --scrollbar-auto-scrollbar-color-thumb: rgba(64, 93, 139, 0.16);
-
-/* Box Shadow On Floating Elements Colours */
---elevation-stroke: 0 0 0 1px rgba(4,4,5,0.15);
---elevation-low: 0 1px 0 rgba(4,4,5,0.2),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05);
---elevation-medium: 0 4px 4px rgba(0,0,0,0.16);
---elevation-high: 0 8px 16px rgba(0,0,0,0.24);
-
---scrollbar-thin-thumb: #eaedf100;
+    /* Quarrel Dark */
+    .theme-dark {
+    
+      /* Quarrel */
+    
+    --titlebar-top:  4px;
+    --icon-top: 0.5px;
+    --watermark-top: 5.5px;
+    --watermark-text: "Quarrel";
+    --icon-img: url("https://i.imgur.com/BlVTpku.png");
+    
+    --bd-color: #1B5EB6;
+    --bd-color-hover: #164a8f;
+    --alt-color: 27, 94, 182; /* RGB */
+    --alt-color2: #1b5eb6; /* HEX */
+    
+    --scrollbars: none; /* none or unset */
+  --bar-background-primary: #1b1c2281 !important;
+    --home-icon: url(https://i.imgur.com/Bda0DuK.png);
+      
+    --modal-normal-primary-color: #0b0c0ffd;
+    --modal-normal-secondary-color: #111318;
+    --playing-color: var(--alt-color2);
+    --spotify-color: rgb(37, 129, 18);
+    --streaming-color: rgb(127, 50, 179);
+                
+      /* Keeping Consistancy With Discord */ 
+  --serverlist-background: var(--background-tertiary) !important;
+  --memberlist-background: #1e202700 !important;
+    --win-titlebar: var(--background-tertiary);
+    
+     /* Header Colors */
+     --header-primary: #fff;
+     --header-secondary: #b9bbbe;
+    
+     /* Text Colours */
+     --text-normal: #dcddde;
+     --text-muted: #72767d;
+     --text-link: #00b0f4;
+     --channels-default: #8e9297;
+     --interactive-normal: #b9bbbe;
+     --interactive-hover: #dcddde;
+     --interactive-active: #fff;
+     --interactive-muted: #4f545c;
+    
+     /* Chat */
+     --channeltextarea-background: var(--bar-background-primary);
+     --channeltextarea-background-hover: var(--bar-background-primary);
+    
+     /* Background Colours */
+  --background-primary: #191a1fd0 !important;
+  --background-primary-alt: #191a1fd0 !important;
+  --background-secondary: #1b1c228a !important;
+  --background-secondary-alt: #1b1c228a !important;
+  --background-tertiary: #191b2260 !important;
+  --background-accent: #2f6cce !important;
+  --background-floating: #18191c !important;
+    
+     /* Mentioned  Colours */
+     --background-mentioned: rgba(26, 60, 250, 0.123);
+     --background-mentioned-hover: rgba(41, 26, 250, 0.08);
+     --background-mentioned-bar: var(--background-accent);
+    
+     --background-help-warning: rgba(250,166,26,0.1);
+     --background-help-info: rgba(0,176,244,0.1);
+    
+     /* Scrollbar Colours */
+     --background-modifier-hover: rgba(79,84,92,0.16);
+     --background-modifier-active: rgba(79,84,92,0.24);
+     --background-modifier-selected: rgba(79,84,92,0.32);
+     --background-modifier-accent: hsla(0,0%,100%,0.06);
+     --scrollbar-auto-scrollbar-color-thumb: rgba(79,84,92,0.16);
+    
+    /* Box Shadow On Floating Elements Colours */
+    --elevation-stroke: 0 0 0 1px rgba(4,4,5,0.15);
+    --elevation-low: 0 1px 0 rgba(4,4,5,0.2),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05);
+    --elevation-medium: 0 4px 4px rgba(0,0,0,0.16);
+    --elevation-high: 0 8px 16px rgba(0,0,0,0.24);
+    
+    --scrollbar-thin-thumb: #eaedf100;
     --scrollbar-thin-track: transparent;
     --scrollbar-auto-thumb: #e5e9ee;
     --scrollbar-auto-track: #ebeef100;
     --scrollbar-auto-scrollbar-color-thumb: #f0f3f8;
     --scrollbar-auto-scrollbar-color-track: #2f313600;
+        
+    /* Other */
+    --radio-group-dot-foreground: var(--alt-color);
+    }
     
-/* Other */
---radio-group-dot-foreground: var(--alt-color);
-}
+    /* Extras */
+    .guilds-1SWlCJ{background-color:var(--serverlist-background)}
+    .members-1998pB,.members-1998pB>div{background-color:var(--memberlist-background)}
+    .guilds-1SWlCJ{background-color:var(--serverlist-background-light)}
+    .powercord-toast .contents{background-color:var(--toast-content)}
+    .withFrame-haYltI, .titleBar-AC4pGV {margin-top: var(--titlebar-top);}
+    
+    .channel-2QD9_O .downloadProgressCircle-3_wgim {
+      width: 100%;
+      margin: 0;
+  }
+      .unread-2lAfLh {
+        background-color: var(--background-accent);
+        width: 1.5px;
+        height: 25px;
+        margin-top: -12px;
+        border-radius: 2px 2px 2px 2px;
+    }
+      .toolbar-1t6TWx a {
+        display: none;
+      }
+      
 
-/* Extras */
-.guilds-1SWlCJ{background-color:var(--serverlist-background)}
-.members-1998pB,.members-1998pB>div{background-color:var(--memberlist-background)}
-.guilds-1SWlCJ{background-color:var(--serverlist-background-light)}
-.powercord-toast .contents{background-color:var(--toast-content)}
-.withFrame-haYltI, .titleBar-AC4pGV {margin-top: var(--titlebar-top);}
-
-.titleBar-AC4pGV > *:nth-child(2):hover {background-color: #b64537;}
-.titleBar-AC4pGV > *:nth-child(3):hover {background-color: #d6ac2c;}
-.titleBar-AC4pGV > *:nth-child(4):hover {background-color: #24d324;}
-.container-2lgZY8 {margin-top: 10px;}
-.winButton-iRh8-Z {position: relative;top: -4px;cursor: pointer;width: 32px;height: 30px;pointer-events: auto;-webkit-app-region: no-drag;}
-
-/*  ----------------------------------------------------
-                  Optional Features
-        Add A "/*" On The Lines Below The Comments
-                  To Disable Them
-    ----------------------------------------------------  */
-
-    /* Horizontal Popouts */
-    /* 
-    .userPopout-3XzG_A{
-      width:500px;
-      -webkit-box-orient: horizontal;
-      flex-direction: row;
-      height: 200px;
+    /* BETTERDISCORD ADDITONS */
+    .activity-11LB_k {
+      background-color: rgba(0, 0, 0, 0);
     }
-    .footer-1fjuF6{
-      display: none;
+    .scroller-305q3I {
+      border-radius: 12px;
     }
-    .header-2BwW8b{
-      width:250px;
-      overflow: hidden auto;
+    .theme-dark .perksModal-fSYqOq {
+      background-color: var(--background-primary);
     }
-    .header-2BwW8b::-webkit-scrollbar {
-      width: 8px;
-      border-radius: 8px;
+    /* Bd Blue */
+    .bd-button, .bd-server-tag, .bd-addon-views .bd-view-button.selected  {
+      background-color: var(--bd-color); 
     }
-    .header-2BwW8b::-webkit-scrollbar-track {
-      background: transparent;
-      border: 2px solid transparent;
-      margin-bottom: 2px;
-      margin-top: 2px;
+    .bd-button:hover {
+      background-color: var(--bd-color-hover); 
     }
-    .header-2BwW8b::-webkit-scrollbar-thumb {
-      border: 2px solid transparent;
-      border-radius: 4px;
-      background: var(--scrollbar-auto-scrollbar-color-track) ;
-      background-clip: padding-box;
+    #bd-pub-button:hover {
+      background-color: var(--bd-color-hover); 
     }
-
+    .horizontal-1ae9ci {
+      margin-left: 35px;
+    }
+    
     /*  ----------------------------------------------------
-           ANYTHING ELSE YOU WANT TO ADD GOES BELOW
-                  THIS IS FOR DEBUGGING ETC
-                         v1.0 (Quarrel)
-    ----------------------------------------------------  */
+                      Optional Features
+            Add A "/*" On The Lines Below The Comments
+                      To Disable Them
+        ----------------------------------------------------  */
+    
+        /* Horizontal Popouts */
+        /* */
+        /*
+        .userPopout-3XzG_A{
+          width:500px;
+          -webkit-box-orient: horizontal;
+          flex-direction: row;
+          height: 200px;
+        }
+        .footer-1fjuF6{
+          display: none;
+        }
+        .header-2BwW8b{
+          width:250px;
+          overflow: hidden auto;
+        }
+        .header-2BwW8b::-webkit-scrollbar {
+          width: 8px;
+          border-radius: 8px;
+        }
+        .header-2BwW8b::-webkit-scrollbar-track {
+          background: transparent;
+          border: 2px solid transparent;
+          margin-bottom: 2px;
+          margin-top: 2px;
+        }
+        .header-2BwW8b::-webkit-scrollbar-thumb {
+          border: 2px solid transparent;
+          border-radius: 4px;
+          background: var(--scrollbar-auto-scrollbar-color-track) ;
+          background-clip: padding-box;
+        }
+        /*  ----------------------------------------------------
+               ANYTHING ELSE YOU WANT TO ADD GOES BELOW
+                      THIS IS FOR DEBUGGING ETC
+                             v1.0 (Quarrel)
+        ----------------------------------------------------  */
