@@ -82,7 +82,7 @@
 /*  ----------------------------
          GLASSCORD SUPPORT
     ----------------------------  */
-/*
+
 :root{
 	--glasscord-win-blur: blurbehind;
 	--glasscord-macos-vibrancy: fullscreen-ui;
@@ -105,7 +105,7 @@ body{
   --background-primary-alt: #191a22e8!important;
   --background-secondary: #1d1f2b6c !important;
   --background-secondary-alt: #1d1f2b6c !important;
-  --background-tertiary: #1d1f2b3f !important;
+  --background-tertiary: #1d1f2b00 !important;
   --background-accent: #2f6cce !important;
   --background-floating: #18191c !important;
   --bar-background-primary: #24263181 !important;
@@ -153,9 +153,9 @@ body{
 
   /* Quarrel */
 
---titlebar-top:  4px;
---icon-top: 0.5px;
---watermark-top: 5.5px;
+--titlebar-top:  0px;
+--icon-top: 3px;
+--watermark-top: 7.5px;
 --watermark-text: "Quarrel";
 --icon-img: url("https://i.imgur.com/BlVTpku.png");
 
@@ -200,7 +200,7 @@ body{
  --background-primary-alt: #191a1f;
  --background-secondary: #191a1f;
  --background-secondary-alt: #191a1f;
- --background-tertiary: #191b22;
+ --background-tertiary: #191b2286;
  --background-accent: #2f6cce;
  --background-floating: #18191c;
 
@@ -250,12 +250,53 @@ body{
 .powercord-toast .contents{background-color:var(--toast-content)}
 .withFrame-haYltI, .titleBar-AC4pGV {margin-top: var(--titlebar-top);}
 
+.titleBar-AC4pGV > *:nth-child(2):hover {background-color: #b64537;}
+.titleBar-AC4pGV > *:nth-child(3):hover {background-color: #d6ac2c;}
+.titleBar-AC4pGV > *:nth-child(4):hover {background-color: #24d324;}
+.container-2lgZY8 {margin-top: 10px;}
+.winButton-iRh8-Z {position: relative;top: -4px;cursor: pointer;width: 32px;height: 30px;pointer-events: auto;-webkit-app-region: no-drag;}
+
 /*  ----------------------------------------------------
                   Optional Features
         Add A "/*" On The Lines Below The Comments
                   To Disable Them
     ----------------------------------------------------  */
 
+    /* Spotify Fix By Squensay */
+    /*
+    #app-mount .container-3baos1 {
+      position: unset;
+      background-color: transparent;
+      bottom: 0px;
+      max-width: 223px;
+  }
+  
+  #app-mount .sidebar-2K8pFh{
+      padding-bottom: unset;
+  }
+  .panels-j1Uci_ {
+       background-color: var(--bar-background-primary);
+  }
+  
+  .container-3baos1{
+      padding-top:16.5px;
+      padding-bottom:16.5px;
+  }
+  
+  .powercord-spotify .container-3baos1{
+       background-color: var(--bar-background-primary);
+       padding-top:0px;
+       padding-bottom:0px;
+  }
+  
+  .powercord-spotify {
+      background-color: var(--bar-background-primary);
+  }
+  
+  .powercord-spotify .spotify-seek-bar{
+      background-color: var(--bar-background-primary);
+      
+  }
     /* Horizontal Popouts */
     /* 
     .userPopout-3XzG_A{
