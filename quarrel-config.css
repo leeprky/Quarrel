@@ -1,7 +1,7 @@
 /*  ------------------------------------------
 
             Quarrel Theme (POWERCORD)
-                      v1.0
+                      v1.1
                 - leeprky#2063 -
 
     ------------------------------------------  */
@@ -124,7 +124,7 @@ body{
 
 /*  ------------------------------------------
               Quarral Configuration
-                      v1.0
+                      v1.1
                 - leeprky#2063 -
     ------------------------------------------  */
 
@@ -234,11 +234,11 @@ body{
 --elevation-high: 0 8px 16px rgba(0,0,0,0.24);
 
 --scrollbar-thin-thumb: #eaedf100;
-    --scrollbar-thin-track: transparent;
-    --scrollbar-auto-thumb: #e5e9ee;
-    --scrollbar-auto-track: #ebeef100;
-    --scrollbar-auto-scrollbar-color-thumb: #f0f3f8;
-    --scrollbar-auto-scrollbar-color-track: #2f313600;
+--scrollbar-thin-track: transparent;
+--scrollbar-auto-thumb: #e5e9ee;
+--scrollbar-auto-track: #ebeef100;
+--scrollbar-auto-scrollbar-color-thumb: #f0f3f8;
+--scrollbar-auto-scrollbar-color-track: #2f313600;
     
 /* Other */
 --radio-group-dot-foreground: var(--alt-color);
@@ -264,74 +264,24 @@ body{
     ----------------------------------------------------  */
 
     /* Spotify Fix By Squensay */
-    /*
-    #app-mount .container-3baos1 {
-      position: unset;
-      background-color: transparent;
-      bottom: 0px;
-      max-width: 223px;
-  }
-  
-  #app-mount .sidebar-2K8pFh{
-      padding-bottom: unset;
-  }
-  .panels-j1Uci_ {
-       background-color: var(--bar-background-primary);
-  }
-  
-  .container-3baos1{
-      padding-top:16.5px;
-      padding-bottom:16.5px;
-  }
-  
-  .powercord-spotify .container-3baos1{
-       background-color: var(--bar-background-primary);
-       padding-top:0px;
-       padding-bottom:0px;
-  }
-  
-  .powercord-spotify {
-      background-color: var(--bar-background-primary);
-  }
-  
-  .powercord-spotify .spotify-seek-bar{
-      background-color: var(--bar-background-primary);
-      
-  }
+    
+#app-mount .container-3baos1 {position: unset;background-color: transparent;bottom: 0px;max-width: 223px;}
+#app-mount .sidebar-2K8pFh{padding-bottom: unset;}
+.container-3baos1{padding-top:16.5px;padding-bottom:16.5px;}
+.powercord-spotify .container-3baos1{padding-top:0px;padding-bottom:0px;}
+.avatarWrapper-2yR4wp {margin-left: -18px;}
+
     /* Horizontal Popouts */
-    /* 
-    .userPopout-3XzG_A{
-      width:500px;
-      -webkit-box-orient: horizontal;
-      flex-direction: row;
-      height: 200px;
-    }
-    .footer-1fjuF6{
-      display: none;
-    }
-    .header-2BwW8b{
-      width:250px;
-      overflow: hidden auto;
-    }
-    .header-2BwW8b::-webkit-scrollbar {
-      width: 8px;
-      border-radius: 8px;
-    }
-    .header-2BwW8b::-webkit-scrollbar-track {
-      background: transparent;
-      border: 2px solid transparent;
-      margin-bottom: 2px;
-      margin-top: 2px;
-    }
-    .header-2BwW8b::-webkit-scrollbar-thumb {
-      border: 2px solid transparent;
-      border-radius: 4px;
-      background: var(--scrollbar-auto-scrollbar-color-track) ;
-      background-clip: padding-box;
-    }
+/* 
+.userPopout-3XzG_A{width:500px;-webkit-box-orient:horizontal;flex-direction:row;height:200px}
+.footer-1fjuF6{display:none}
+.header-2BwW8b{width:250px;overflow:hidden auto}
+.header-2BwW8b::-webkit-scrollbar{width:8px;border-radius:8px}
+.header-2BwW8b::-webkit-scrollbar-track{background:transparent;border:2px solid transparent;margin-bottom:2px;margin-top:2px}
+.header-2BwW8b::-webkit-scrollbar-thumb{border:2px solid transparent;border-radius:4px;background:var(--scrollbar-auto-scrollbar-color-track);background-clip:padding-box}
 
     /*  ----------------------------------------------------
            ANYTHING ELSE YOU WANT TO ADD GOES BELOW
                   THIS IS FOR DEBUGGING ETC
-                         v1.0 (Quarrel)
+                         v1.1 (Quarrel)
     ----------------------------------------------------  */
