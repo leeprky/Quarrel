@@ -1,7 +1,7 @@
 /**
  * @name Quarrel
  * @author Leeprky#2063
- * @version 1.0
+ * @version 1.1
  * @description Based Off The Quarral Client In The Windows Store/XBOX.
  * @source https://github.com/leeprky/Quarrel
  * @updateUrl https://github.com/leeprky/Quarrel/blob/main/support/betterdiscord/quarrel.theme.css
@@ -13,7 +13,7 @@
 
 /*  ------------------------------------------
             Quarrel Theme (BetterDiscord)
-                      v1.0
+                      v1.1
                 - leeprky#2063 -
     ------------------------------------------  */
 
@@ -93,7 +93,7 @@
     
     /*  ------------------------------------------
                   Quarral Configuration
-                          v1.0
+                          v1.1
                     - leeprky#2063 -
         ------------------------------------------  */
     
@@ -262,40 +262,17 @@
                       To Disable Them
         ----------------------------------------------------  */
     
-        /* Horizontal Popouts */
-        /* */
-        /*
-        .userPopout-3XzG_A{
-          width:500px;
-          -webkit-box-orient: horizontal;
-          flex-direction: row;
-          height: 200px;
-        }
-        .footer-1fjuF6{
-          display: none;
-        }
-        .header-2BwW8b{
-          width:250px;
-          overflow: hidden auto;
-        }
-        .header-2BwW8b::-webkit-scrollbar {
-          width: 8px;
-          border-radius: 8px;
-        }
-        .header-2BwW8b::-webkit-scrollbar-track {
-          background: transparent;
-          border: 2px solid transparent;
-          margin-bottom: 2px;
-          margin-top: 2px;
-        }
-        .header-2BwW8b::-webkit-scrollbar-thumb {
-          border: 2px solid transparent;
-          border-radius: 4px;
-          background: var(--scrollbar-auto-scrollbar-color-track) ;
-          background-clip: padding-box;
-        }
+    /* Horizontal Popouts */
+/* 
+.userPopout-3XzG_A{width:500px;-webkit-box-orient:horizontal;flex-direction:row;height:200px}
+.footer-1fjuF6{display:none}
+.header-2BwW8b{width:250px;overflow:hidden auto}
+.header-2BwW8b::-webkit-scrollbar{width:8px;border-radius:8px}
+.header-2BwW8b::-webkit-scrollbar-track{background:transparent;border:2px solid transparent;margin-bottom:2px;margin-top:2px}
+.header-2BwW8b::-webkit-scrollbar-thumb{border:2px solid transparent;border-radius:4px;background:var(--scrollbar-auto-scrollbar-color-track);background-clip:padding-box}
+
         /*  ----------------------------------------------------
                ANYTHING ELSE YOU WANT TO ADD GOES BELOW
                       THIS IS FOR DEBUGGING ETC
-                             v1.0 (Quarrel)
+                             v1.1 (Quarrel)
         ----------------------------------------------------  */
