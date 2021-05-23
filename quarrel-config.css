@@ -108,7 +108,7 @@ body{
   --background-secondary-alt: #1d1f2b6c !important;
   --background-tertiary: #1d1f2b00 !important;
   --background-accent: #2f6cce !important;
-  --background-floating: #18191c !important;
+  --background-floating: #191c27e5 !important;
   --bar-background-primary: #24263181 !important;
   --serverlist-background: var(--background-tertiary) !important;
   --memberlist-background: #1e202700 !important;
@@ -167,8 +167,8 @@ body{
 --bar-background-primary: #1e1f25;
 --home-icon: url(https://i.imgur.com/Bda0DuK.png);
   
---modal-normal-primary-color: #0b0c0ffd;
---modal-normal-secondary-color: #111318;
+--modal-normal-primary-color: #0b0c0f70;
+--modal-normal-secondary-color: #11131883;
 --playing-color: var(--alt-color2);
 --spotify-color: rgb(37, 129, 18);
 --streaming-color: rgb(127, 50, 179);
