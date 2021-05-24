@@ -295,8 +295,10 @@ body{
 .menu-3sdvDG{background-color:#03000567;border-radius:12px}
 div[class*=colorDefault-].focused-3afm-j,div[class*=colorDefault-].focused-3afm-j:active,div[class*=colorDefault-]:active:not(.hideInteraction-1iHO1O){background-color:transparent!important;color:#fff!important}
 .colorDefault-2K3EoJ{margin-left:5px}
-@keyframes smooth-up1 {0%{top:30px} 25%{top:0} 50%{top:0} 75%{top:0} 100%{top:0}}
+@keyframes smooth-up1 {0%{top:10px} 25%{top:0} 50%{top:0} 75%{top:0} 100%{top:0}}
 .statusItem-33LqPf,#app-mount #status-picker{position:relative;margin-left:-3px;margin-bottom:-4px;animation-name:smooth-up1;animation-duration:4s}
+.mask-1qbNWk.icon-1IxfJ2 {border-radius: 50% !important;}
+.statusItem-33LqPf foreignObject { mask: none}
 
     /*  ----------------------------------------------------
            ANYTHING ELSE YOU WANT TO ADD GOES BELOW
