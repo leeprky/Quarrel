@@ -1,7 +1,8 @@
-/**
+
+    /**
  * @name Quarrel
  * @author Leeprky#2063
- * @version 1.1
+ * @version 1.3
  * @description Based Off The Quarral Client In The Windows Store/XBOX.
  * @source https://github.com/leeprky/Quarrel
  * @updateUrl https://github.com/leeprky/Quarrel/blob/main/support/betterdiscord/quarrel.theme.css
@@ -13,7 +14,7 @@
 
 /*  ------------------------------------------
             Quarrel Theme (BetterDiscord)
-                      v1.1
+                      v1.3
                 - leeprky#2063 -
     ------------------------------------------  */
 
@@ -93,7 +94,7 @@
     
     /*  ------------------------------------------
                   Quarral Configuration
-                          v1.1
+                          v1.3
                     - leeprky#2063 -
         ------------------------------------------  */
     
@@ -101,6 +102,9 @@
 .titleBar-AC4pGV > *:nth-child(2):hover {background-color: #c05648;}
 .titleBar-AC4pGV > *:nth-child(3):hover {background-color: #f0c649;}
 .titleBar-AC4pGV > *:nth-child(4):hover {background-color: #4de64d;}
+.titleBar-AC4pGV > *:nth-child(2) {transition: 0.5s;}
+.titleBar-AC4pGV > *:nth-child(3) {transition: 0.5s;}
+.titleBar-AC4pGV > *:nth-child(4) {transition: 0.5s;}
 
 /* Status */
 
@@ -142,7 +146,7 @@
     --modal-normal-primary-color: #0b0c0ffd;
     --modal-normal-secondary-color: #111318;
     --playing-color: var(--alt-color2);
-    --spotify-color: rgb(37, 129, 18);
+    --spotify-color: var(--alt-color2);
     --streaming-color: rgb(127, 50, 179);
                 
       /* Keeping Consistancy With Discord */ 
@@ -161,6 +165,7 @@
      --channels-default: #8e9297;
      --interactive-normal: #b9bbbe;
      --interactive-hover: #dcddde;
+     --interactive-hover-icons: var(--alt-color2);
      --interactive-active: #fff;
      --interactive-muted: #4f545c;
     
@@ -274,5 +279,5 @@
         /*  ----------------------------------------------------
                ANYTHING ELSE YOU WANT TO ADD GOES BELOW
                       THIS IS FOR DEBUGGING ETC
-                             v1.1 (Quarrel)
+                             v1.3 (Quarrel)
         ----------------------------------------------------  */
