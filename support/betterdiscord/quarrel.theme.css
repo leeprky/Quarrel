@@ -201,13 +201,25 @@
       margin-left: 35px;
     }
 
+    /* USRBG */
     .userPopout-3XzG_A[style*="--user-background"] .profileBanner-33-uE1 {
       height: 180px;
       background: var(--user-background) center / cover;
+      margin: 12px;
+      border-radius: 6px;
   }
   .userPopout-3XzG_A[style*="--user-background"] .avatarPositionNormal-1CZUPk {
       top: 110px;
   }
+  .userPopout-3XzG_A[style*="--user-background"] .headerText-2WJ44e.userSelectText-1o1dQ7 {
+    margin-top: -65px;
+  }
+  .userPopout-3XzG_A[style*="--user-background"] .profileBadges-1dm1_q {
+    margin-top: -15px;
+  }
+  .theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {
+    background-color: var(--modal-bg);
+}
     
     /*  ----------------------------------------------------
                       Optional Features
