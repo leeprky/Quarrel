@@ -119,7 +119,7 @@ body{
 --serverlist-background: var(--background-tertiary);
 --memberlist-background: #1e2027;
 --win-titlebar: var(--background-tertiary);
---popout-width: 480px;
+--popout-width: ;
 
  /* Header Colors */
  --header-primary: #fff;
