@@ -31,66 +31,6 @@
     @import url("https://discord-custom-gradient-names.github.io/gradient/dist/main.min.css");
     
     
-    /* ===========================================
-             USRBG Popouts by Tropix126.
-    =========================================== */
-    /* Broken ATM
-    @import url('https://discord-custom-covers.github.io/usrbg/dist/usrbg.css');
-
-    .userPopout-3XzG_A {
-      transform:translateZ(0);
-    }
-    
-    .userPopout-3XzG_A .wrapper-3t9DeA::after {
-      content: '';
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      z-index: -1;
-      pointer-events: none;
-      opacity: .5;
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: var(--user-popout-position) center;
-      background-image: var(--user-background);
-      -webkit-mask-image: linear-gradient(#000, transparent);
-    }
-    
-    .userPopout-3XzG_A  .header-2BwW8b,
-    .userPopout-3XzG_A  .scroller-2FKFPG,
-    .userPopout-3XzG_A  .footer-1fjuF6 {
-      z-index: 1;
-    }
-    
-    .root-SR8cQa {
-      transform: translateZ(0);
-    }
-    .header-QKLPzZ .wrapper-3t9DeA::before {
-      content: '';
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      opacity: .5;
-      pointer-events: none;
-      background: var(--user-background) center/cover no-repeat;
-      -webkit-mask: linear-gradient(black, transparent 80%);
-    }
-    
-    .headerInfo-30uryT,
-    .tabBarItem-1b8RUP,
-    .activity-1ythUs {
-      z-index: 1;
-      position: relative;
-    }
-    
-    /* ===========================================
-             USRBG Popouts by Tropix126.
-    =========================================== */
-    
     /*  ------------------------------------------
                   Quarral Configuration
                           v1.3
@@ -142,8 +82,6 @@
     --bar-background-primary: #1b1c2281 !important;
     --home-icon: url(https://i.imgur.com/Bda0DuK.png);
       
-    --modal-normal-primary-color: #0b0c0ffd;
-    --modal-normal-secondary-color: #111318;
     --playing-color: var(--alt-color2);
     --spotify-color: var(--alt-color2);
     --streaming-color: rgb(127, 50, 179);
@@ -157,6 +95,7 @@
      --header-primary: #fff;
      --header-secondary: #b9bbbe;
      --channels-headings: var(--alt-color2);
+     --modal-bg: rgb(19, 20, 24);
 
      /* Text Colours */
      --text-normal: #dcddde;
@@ -167,6 +106,7 @@
      --interactive-hover: #dcddde;
      --interactive-hover-icons: var(--alt-color2);
      --interactive-active: #fff;
+      --interactive-active-icons: var(--alt-color2);
      --interactive-muted: #4f545c;
     
      /* Chat */
@@ -260,6 +200,14 @@
     .horizontal-1ae9ci {
       margin-left: 35px;
     }
+
+    .userPopout-3XzG_A[style*="--user-background"] .profileBanner-33-uE1 {
+      height: 180px;
+      background: var(--user-background) center / cover;
+  }
+  .userPopout-3XzG_A[style*="--user-background"] .avatarPositionNormal-1CZUPk {
+      top: 110px;
+  }
     
     /*  ----------------------------------------------------
                       Optional Features
@@ -275,7 +223,6 @@
 .header-2BwW8b::-webkit-scrollbar{width:8px;border-radius:8px}
 .header-2BwW8b::-webkit-scrollbar-track{background:transparent;border:2px solid transparent;margin-bottom:2px;margin-top:2px}
 .header-2BwW8b::-webkit-scrollbar-thumb{border:2px solid transparent;border-radius:4px;background:var(--scrollbar-auto-scrollbar-color-track);background-clip:padding-box}
-
 /* Status Bar */
 /*
 .full-motion .scale-3iLZhb.didRender-33z1u8{-webkit-transition:opacity .12s ease-out,-webkit-transform .12s ease-out;transition:opacity .12s ease-out,-webkit-transform .12s ease-out;transition:transform .12s ease-in-out,opacity .12s ease-out;transition:transform .12s ease-out,opacity .12s ease-out,-webkit-transform .12s ease-out;-webkit-transform:scale(1);transform:scale(1);opacity:1}
@@ -295,7 +242,6 @@ div[class*=colorDefault-].focused-3afm-j,div[class*=colorDefault-].focused-3afm-
 .statusItem-33LqPf,#app-mount #status-picker{position:relative;margin-left:-3px;margin-bottom:-4px;animation-name:smooth-up1;animation-duration:4s}
 .mask-1qbNWk.icon-1IxfJ2 {border-radius: 50% !important;}
 .statusItem-33LqPf foreignObject { mask: none}
-
         /*  ----------------------------------------------------
                ANYTHING ELSE YOU WANT TO ADD GOES BELOW
                       THIS IS FOR DEBUGGING ETC
