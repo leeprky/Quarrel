@@ -90,6 +90,7 @@
     --serverlist-background: var(--background-tertiary) !important;
     --memberlist-background: #1e202700 !important;
     --win-titlebar: var(--background-tertiary);
+    --popout-width: 480px;
     
      /* Header Colors */
      --header-primary: #fff;
