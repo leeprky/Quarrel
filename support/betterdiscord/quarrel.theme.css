@@ -1,7 +1,7 @@
 /**
  * @name Quarrel
  * @author Leeprky#2063
- * @version 1.4
+ * @version 1.4.1
  * @description Based Off The Quarral Client In The Windows Store/XBOX.
  * @source https://github.com/leeprky/Quarrel
  * @updateUrl https://github.com/leeprky/Quarrel/blob/main/support/betterdiscord/quarrel.theme.css
@@ -13,7 +13,7 @@
 
 /*  ------------------------------------------
             Quarrel Theme (BetterDiscord)
-                      v1.4
+                      v1.4.1
                 - leeprky#2063 -
     ------------------------------------------  */
 
@@ -30,10 +30,9 @@
     /** Custom Gradient Names **/
     @import url("https://discord-custom-gradient-names.github.io/gradient/dist/main.min.css");
     
-    
     /*  ------------------------------------------
                   Quarral Configuration
-                          v1.3
+                          v1.4.1
                     - leeprky#2063 -
         ------------------------------------------  */
     
@@ -79,6 +78,7 @@
     --alt-color2: #1b5eb6; /* HEX */
     
     --scrollbars: none; /* none or unset */
+    --public-servers: none;
     --bar-background-primary: #1b1c2281 !important;
     --home-icon: url(https://i.imgur.com/Bda0DuK.png);
       
@@ -90,7 +90,7 @@
     --serverlist-background: var(--background-tertiary) !important;
     --memberlist-background: #1e202700 !important;
     --win-titlebar: var(--background-tertiary);
-    --popout-width: ;
+    --popout-width: ; /* Change To 480px For Static Modal Popout */
     
      /* Header Colors */
      --header-primary: #fff;
@@ -115,11 +115,11 @@
      --channeltextarea-background-hover: var(--bar-background-primary);
     
      /* Background Colours */
-  --background-primary: #191a1fd0 !important;
+  --background-primary: #191a1fc2 !important;
   --background-primary-alt: #191a1fd0 !important;
-  --background-secondary: #1b1c228a !important;
+  --background-secondary: #1b1c224f !important;
   --background-secondary-alt: #1b1c228a !important;
-  --background-tertiary: #191b2260 !important;
+  --background-tertiary: #191b2277 !important;
   --background-accent: #2f6cce !important;
   --background-floating: #18191c !important;
     
@@ -177,7 +177,6 @@
         display: none;
       }
       
-
     /* BETTERDISCORD ADDITONS */
     .activity-11LB_k {
       background-color: rgba(0, 0, 0, 0);
@@ -201,6 +200,9 @@
     .horizontal-1ae9ci {
       margin-left: 35px;
     }
+    #bd-pub-li {
+      display: var(--public-servers);
+    }
 
     /* USRBG */
     .userPopout-3XzG_A[style*="--user-background"] .profileBanner-33-uE1 {
@@ -220,6 +222,9 @@
   }
   .theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {
     background-color: var(--modal-bg);
+}
+.topSectionNormal-2-vo2m, .headerSpotify-zpWxgT, .topSectionSpotify-1lI0-P, .headerPlaying-j0WQBV, .topSectionPlaying-1J5E4n {
+  background: var(--user-background) center / cover;
 }
     
     /*  ----------------------------------------------------
@@ -255,8 +260,9 @@ div[class*=colorDefault-].focused-3afm-j,div[class*=colorDefault-].focused-3afm-
 .statusItem-33LqPf,#app-mount #status-picker{position:relative;margin-left:-3px;margin-bottom:-4px;animation-name:smooth-up1;animation-duration:4s}
 .mask-1qbNWk.icon-1IxfJ2 {border-radius: 50% !important;}
 .statusItem-33LqPf foreignObject { mask: none}
+
         /*  ----------------------------------------------------
                ANYTHING ELSE YOU WANT TO ADD GOES BELOW
                       THIS IS FOR DEBUGGING ETC
-                             v1.4 (Quarrel)
+                             v1.4.1 (Quarrel)
         ----------------------------------------------------  */
