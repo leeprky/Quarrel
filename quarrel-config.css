@@ -1,7 +1,7 @@
 /*  ------------------------------------------
 
             Quarrel Theme (POWERCORD)
-                      v1.3
+                      v1.4
                 - leeprky#2063 -
 
     ------------------------------------------  */
@@ -17,13 +17,14 @@
 @import url(https://ghostmander.github.io/discordfont/DiscordFont.css);
 
 /** Custom Gradient Names **/
+/*
 @import url("https://discord-custom-gradient-names.github.io/gradient/dist/main.min.css");
-
+*/
 
 /* ===========================================
          USRBG Popouts by Tropix126.
 =========================================== */
-
+/* Broken ATM
 @import url('https://discord-custom-covers.github.io/usrbg/dist/usrbg.css');
 
 .userPopout-3XzG_A {
@@ -83,7 +84,7 @@
 /*  ----------------------------
          GLASSCORD SUPPORT
     ----------------------------  */
-/*
+
 :root{
 	--glasscord-win-blur: blurbehind;
 	--glasscord-macos-vibrancy: fullscreen-ui;
@@ -168,9 +169,8 @@ body{
 --scrollbars: none; /* none or unset */
 --bar-background-primary: #1e1f25;
 --home-icon: url(https://i.imgur.com/Bda0DuK.png);
+--modal-bg: rgb(19, 20, 24);
   
---modal-normal-primary-color: #0b0c0f70;
---modal-normal-secondary-color: #11131883;
 --playing-color: var(--alt-color2);
 --spotify-color: var(--alt-color2);
 --streaming-color: rgb(127, 50, 179);
@@ -183,11 +183,12 @@ body{
  /* Header Colors */
  --header-primary: #fff;
  --header-secondary: #b9bbbe;
+ --channels-headings: var(--alt-color2);
 
  /* Text Colours */
  --text-normal: #dcddde;
  --text-muted: #72767d;
- --text-link: #00b0f4;
+ --text-link: var(--alt-color2);
  --channels-default: #8e9297;
  --interactive-normal: #b9bbbe;
  --interactive-hover: #dce0e4;
@@ -201,7 +202,7 @@ body{
 
  /* Background Colours */
  --background-primary: #191a1f;
- --background-primary-alt: #191a1f;
+ --background-primary-alt: #0f33e2;
  --background-secondary: #191a1f;
  --background-secondary-alt: #191a1f;
  --background-tertiary: #191b2286;
@@ -281,7 +282,7 @@ body{
 .header-2BwW8b::-webkit-scrollbar-thumb{border:2px solid transparent;border-radius:4px;background:var(--scrollbar-auto-scrollbar-color-track);background-clip:padding-box}
 
 /* Status Bar */
-
+/*
 .full-motion .scale-3iLZhb.didRender-33z1u8{-webkit-transition:opacity .12s ease-out,-webkit-transform .12s ease-out;transition:opacity .12s ease-out,-webkit-transform .12s ease-out;transition:transform .12s ease-in-out,opacity .12s ease-out;transition:transform .12s ease-out,opacity .12s ease-out,-webkit-transform .12s ease-out;-webkit-transform:scale(1);transform:scale(1);opacity:1}
 .status-1fhblQ,.description-2L932D{display:none}
 .separator-2I32lJ{display:none}
@@ -290,8 +291,7 @@ body{
 .item-1tOPte.colorDefault-2K3EoJ:nth-of-type(7){grid-column:1/5}
 .animatorTop-2Y7x2r.scale-3iLZhb.didRender-33z1u8{transition:opacity .15s linear 0}
 .customText-tY5LJn{font-size:15px}
-.statusItem-33LqPf[aria-label="Set a custom status"]{display:none;}
-.statusItem-33LqPf[aria-label="Show Game Activity"]{display:none;}
+
 .menu-3sdvDG{background-color:#03000567;border-radius:12px}
 div[class*=colorDefault-].focused-3afm-j,div[class*=colorDefault-].focused-3afm-j:active,div[class*=colorDefault-]:active:not(.hideInteraction-1iHO1O){background-color:transparent!important;color:#fff!important}
 .colorDefault-2K3EoJ{margin-left:5px}
@@ -303,5 +303,5 @@ div[class*=colorDefault-].focused-3afm-j,div[class*=colorDefault-].focused-3afm-
     /*  ----------------------------------------------------
            ANYTHING ELSE YOU WANT TO ADD GOES BELOW
                   THIS IS FOR DEBUGGING ETC
-                         v1.3 (Quarrel)
+                         v1.4 (Quarrel)
     ----------------------------------------------------  */
