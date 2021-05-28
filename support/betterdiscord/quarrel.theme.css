@@ -187,6 +187,10 @@
     /* Other */
     --radio-group-dot-foreground: var(--alt-color);
     }
+
+.horizontal-1ae9ci {
+     margin-left: 0px !important;
+}
     
     /* Extras */
     .guilds-1SWlCJ{background-color:var(--serverlist-background)}
