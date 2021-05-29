@@ -1,7 +1,7 @@
 /**
  * @name Quarrel
  * @author Leeprky#2063
- * @version 1.4.1.1
+ * @version 1.4.2
  * @description Based Off The Quarral Client In The Windows Store/XBOX.
  * @source https://github.com/leeprky/Quarrel
  * @updateUrl https://github.com/leeprky/Quarrel/blob/main/support/betterdiscord/quarrel.theme.css
@@ -13,51 +13,28 @@
 
 /*  ------------------------------------------
             Quarrel Theme (BetterDiscord)
-                      v1.4.1.1
+                      v1.4.2
                 - leeprky#2063 -
     ------------------------------------------  */
 
     @import url(https://leeprky.github.io/themes/quarrel/quarrel.css);
-    @import url('https://leeprky.github.io/snippits/coolsniipitsforthemes.css');
 
-    /* Sources */
-    @import url(https://raw.githack.com/leeprky/MyThemesBasesStuffYeah/lode/alt-color.css);
-    @import url(https://raw.githack.com/leeprky/FullyThemedDiscord/main/FullyThemedDiscord.theme.css);
-    
+    @import url(https://leeprky.github.io/snippits/coolsniipitsforthemes.css);
     @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
     @import url(https://ghostmander.github.io/discordfont/DiscordFont.css);
     
     /** Custom Gradient Names **/
-    @import url("https://discord-custom-gradient-names.github.io/gradient/dist/main.min.css");
+    /* - remove
+    @import url("https://discord-custom-gradient-names.github.io/gradient/dist/main.min.css"); 
     
     /* ===========================================
              USRBG Popouts by Tropix126.
     =========================================== */
     
-    @import url('https://discord-custom-covers.github.io/usrbg/dist/usrbg.css');
-    
-    .root-SR8cQa {
-      transform: translateZ(0);
-    }
-    .header-QKLPzZ .wrapper-3t9DeA::before {
-      content: '';
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      opacity: .5;
-      pointer-events: none;
-      background: var(--user-background) center/cover no-repeat;
-      -webkit-mask: linear-gradient(black, transparent 80%);
-    }
-    
-    .headerInfo-30uryT,
-    .tabBarItem-1b8RUP,
-    .activity-1ythUs {
-      z-index: 1;
-      position: relative;
-    }
+    @import url(https://discord-custom-covers.github.io/usrbg/dist/usrbg.css);
+    .root-SR8cQa{transform:translateZ(0)}
+    .header-QKLPzZ .wrapper-3t9DeA::before{content:'';position:fixed;top:0;left:0;width:100%;height:100%;opacity:.5;pointer-events:none;background:var(--user-background) center/cover no-repeat;-webkit-mask:linear-gradient(black,transparent 80%)}
+    .headerInfo-30uryT,.tabBarItem-1b8RUP,.activity-1ythUs{z-index:1;position:relative}
     
     /* ===========================================
              USRBG Popouts by Tropix126.
@@ -65,20 +42,25 @@
 
     /*  ------------------------------------------
                   Quarral Configuration
-                          v1.4.1.1
+                          v1.4.2
                     - leeprky#2063 -
         ------------------------------------------  */
-    
+
+/* BLAH BLAH BLAH | SOMETIMES MORE INFO - DEFAULT VALUE */
+
+/* HOW TO EDIT THIS THEME
+I RECOMMEND USING A PROGRAM LIKE VISUAL STUDIO CODE INSTEAD OF NOTEPAD
+*/
+
 /* Win Bar Colours On Hover */
-.titleBar-AC4pGV > *:nth-child(2):hover {background-color: #c05648;}
-.titleBar-AC4pGV > *:nth-child(3):hover {background-color: #f0c649;}
-.titleBar-AC4pGV > *:nth-child(4):hover {background-color: #4de64d;}
-.titleBar-AC4pGV > *:nth-child(2) {transition: 0.5s;}
-.titleBar-AC4pGV > *:nth-child(3) {transition: 0.5s;}
-.titleBar-AC4pGV > *:nth-child(4) {transition: 0.5s;}
+.titleBar-AC4pGV > *:nth-child(2):hover {background-color: #c05648;} /* Windows Titlebar Close Colour - #c05648 */
+.titleBar-AC4pGV > *:nth-child(3):hover {background-color: #cca32a;} /* Windows Titlebar Maximise Colour - #cca32a */
+.titleBar-AC4pGV > *:nth-child(4):hover {background-color: #24bb24;} /* Windows Titlebar Minimise Colour - #24bb24 */
+.titleBar-AC4pGV > *:nth-child(2) {transition: 0.5s;} /* Windows Titlebar Close Colour Transition- 0.5s */
+.titleBar-AC4pGV > *:nth-child(3) {transition: 0.5s;} /* Windows Titlebar Maximise Colour Transition- 0.5s */
+.titleBar-AC4pGV > *:nth-child(4) {transition: 0.5s;} /* Windows Titlebar Minimise Colour Transition- 0.5s */
 
 /* Status */
-
 :root {
   --rs-small-spacing: 0px;  /* Spacing between avatar and status | MUST end in px */
   --rs-large-spacing: 0px;  /* Spacing between avatar and status for user popouts & modals/profiles | MUST end in px */
@@ -95,7 +77,100 @@
 }
 
     /* Quarrel Dark */
-    .theme-dark {
+.theme-dark {
+    
+      /* Quarrel */
+    
+    --titlebar-top:  5px; /* WinBar Height - 5px */
+    --icon-top: 0.8px; /* Logo Top Left Height - 0.8px */
+    --watermark-top: 5.5px; /* Text Top Left Height - 5.5px */
+    --watermark-text: "Quarrel"; /* Watermark Text - Quarrel */
+    --icon-img: url("https://i.imgur.com/BlVTpku.png"); /* ICON URL - https://i.imgur.com/BlVTpku.png */
+    
+    --bd-color: #1B5EB6; /* Betterdiscord Global Colour - #1B5EB6 */
+    --bd-color-hover: #164a8f; /* Betterdiscord Global Colour Hover - #164a8f */
+    --alt-color: 27, 94, 182; /* Discords Blurple Global | RGB - 27, 94, 182 */
+    --alt-color2: #1b5eb6; /* Discords Blurple Global | HEX - #1b5eb6 */
+    /* Change Both Alts To Same Alternate Version As They Do Different Things Just Different Ways */
+    
+    --scrollbars: none; /* Remove None For Scrollbars - none */
+    --public-servers: none; /* Remove None For Public Server Button - none */
+    --bar-background-primary: #1b1c2281 !important; /* Bottom Bar Colour - #1b1c2281 */
+    --home-icon: url(https://i.imgur.com/Bda0DuK.png); /* Friends Home Icon - https://i.imgur.com/Bda0DuK.png */
+      
+    --playing-color: var(--alt-color2); /* Dont Work In New Discord Modal Update */
+    --spotify-color: var(--alt-color2); /* Dont Work In New Discord Modal Update */
+    --streaming-color: rgb(127, 50, 179); /* Dont Work In New Discord Modal Update */
+                
+      /* Keeping Consistancy With Discord */ 
+    --serverlist-background: var(--background-tertiary) !important; /* Server List BG - var(--background-tertiary) */
+    --memberlist-background: #1e202700 !important; /* Member List BG - #1e202700 */
+    --popout-width: 480px; /* Popout Modal Width, None For Dynamic Width - 480 */
+    --modal-bg: rgb(19, 20, 24); /* Popout Modal Colour - rgb(19, 20, 24) */
+    
+     /* Header Colors */
+     --header-primary: #fff; /* Main Header Colour - #fff */
+     --header-secondary: #b9bbbe; /* Secondary Header Colour - #b9bbbe */
+     --channels-headings: var(--alt-color2); /* Headers For Channels/Role Names Colour - var(--alt-color2) */
+
+     /* Text Colours */
+     --text-normal: #dcddde; /* Chat Text - #dcddde */
+     --text-muted: #72767d; /* Channel Icon Colour - #72767d */
+     --text-link: var(--alt-color2); /* Text Link Globally - var(--alt-color2); */
+     --channels-default: #8e9297; /* Default Channel Names Colour - #8e9297 */
+     --interactive-normal: #b9bbbe; /* Interactive Buttons Normal Colour - #b9bbbe */
+     --interactive-hover: #dcddde; /* Interactive Buttons Hover Colour - #dcddde */
+     --interactive-hover-icons: var(--alt-color2); /* Interactive Buttons Hover Colour - var(--alt-color2);*/
+     --interactive-active: #fff; /* Interactive Buttons Active Colour - #fff */
+      --interactive-active-icons: var(--alt-color2); /* Interactive Buttons Icon Colour - var(--alt-color2); */
+     --interactive-muted: #4f545c; /* Interactive Buttons Muted Colour - #4f545c */
+    
+     /* Chat */
+     --channeltextarea-background: var(--bar-background-primary); /* TextBox Background */
+     --channeltextarea-background-hover: var(--bar-background-primary); /* TextBox Background Hover */
+    
+     /* Background Colours */
+  --background-primary: #191a1fc2 !important; /* Main Background Colour, Chat Etc - #191a1fc2 */
+  --background-primary-alt: #191a1fd0 !important; /* Main Alternative Background Colour - #191a1fd0 */
+  --background-secondary: #1b1c224f !important; /* Secondary Background Colour, Channelist, TopBar  Etc - #1b1c224f */
+  --background-secondary-alt: #1b1c228a !important; /* Secondary Alternative Background Colour - #1b1c228a */
+  --background-tertiary: #191b2277 !important; /* Tertiary Background Colour | #App Mount Colour Etc - #191b2277 */
+  --background-accent: var(--alt-color2) !important; /* Accent Background Colour, Pills Etc - var(--alt-color2) */
+  --background-floating: #18191c !important; /* Floating Modals Background Colour, Clickable Stuff Etc -#18191c */
+    
+     /* Mentioned  Colours */
+     --background-mentioned: rgba(26, 60, 250, 0.123); /* Chat Mentioned BG - rgba(26, 60, 250, 0.123) */
+     --background-mentioned-hover: rgba(41, 26, 250, 0.08); /* Chat Mentioned Hover BG - rgba(41, 26, 250, 0.08) */
+     --background-mentioned-bar: var(--background-accent); /* Chat Mentioned Bar BG - var(--background-accent) */
+    
+     --background-help-warning: rgba(250,166,26,0.1); /* IDK | Rebrand Stuff - rgba(250,166,26,0.1) */
+     --background-help-info: rgba(0,176,244,0.1); /* IDK | Rebrand Stuff - rgba(0,176,244,0.1) */
+    
+     /* Scrollbar Colours */
+     --background-modifier-hover: rgba(79,84,92,0.16); /* Hovering Over Buttons Hover Colour - rgba(79,84,92,0.16) */
+     --background-modifier-active: rgba(79,84,92,0.24); /* Hovering Over Buttons Active Colour - rgba(79,84,92,0.16) */
+     --background-modifier-selected: rgba(79,84,92,0.32); /* Hovering Over Buttons Selected Colour - rgba(79,84,92,0.16) */
+     --background-modifier-accent: hsla(0,0%,100%,0.06); /* Hovering Over Buttons Accent Colour - rgba(79,84,92,0.16) */
+    
+    /* Box Shadow On Floating Elements Colours */
+    --elevation-stroke: 0 0 0 1px rgba(4,4,5,0.15); /* Box Shadow On Floating Elements Stroke - 0 0 0 1px rgba(4,4,5,0.15) */
+    --elevation-low: 0 1px 0 rgba(4,4,5,0.2),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05); /* Box Shadow On Floating Elements Low - 0 1px 0 rgba(4,4,5,0.2),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05) */
+    --elevation-medium: 0 4px 4px rgba(0,0,0,0.16); /* Box Shadow On Floating Elements Medium - 0 4px 4px rgba(0,0,0,0.16) */
+    --elevation-high: 0 8px 16px rgba(0,0,0,0.24); /* Box Shadow On Floating Elements High - 0 8px 16px rgba(0,0,0,0.24) */
+    
+    --scrollbar-thin-thumb: #eaedf100; /* Scrollbar Thin Blob - eaedf100 */
+    --scrollbar-thin-track: transparent; /* Scrollbar Thin Blob Track - transparent */
+    --scrollbar-auto-thumb: #e5e9ee; /* Scrollbar Large Blob - #e5e9ee */
+    --scrollbar-auto-track: #ebeef100; /* Scrollbar Large Blob Track - #ebeef100 */
+    --scrollbar-auto-scrollbar-color-thumb: #f0f3f8; /* Scrollbar Large Blob - #f0f3f8 */
+    --scrollbar-auto-scrollbar-color-track: #2f313600; /* Scrollbar Large Blob Track - #2f313600 */
+        
+    /* Other */
+    --radio-group-dot-foreground: var(--alt-color); /* Ignore */
+    }
+
+    /* Quarrel Light */
+.theme-light {
     
       /* Quarrel */
     
@@ -105,14 +180,14 @@
     --watermark-text: "Quarrel";
     --icon-img: url("https://i.imgur.com/BlVTpku.png");
     
-    --bd-color: #1B5EB6;
-    --bd-color-hover: #164a8f;
-    --alt-color: 27, 94, 182; /* RGB */
-    --alt-color2: #1b5eb6; /* HEX */
+    --bd-color: #226dcf;
+    --bd-color-hover: #226ac9;
+    --alt-color: 43, 120, 199; /* RGB */
+    --alt-color2: #2e5a94; /* HEX */
     
     --scrollbars: none; /* none or unset */
     --public-servers: none;
-    --bar-background-primary: #1b1c2281 !important;
+    --bar-background-primary: #c3c6d3c2 !important;
     --home-icon: url(https://i.imgur.com/Bda0DuK.png);
       
     --playing-color: var(--alt-color2);
@@ -126,20 +201,20 @@
     --popout-width: 480px; /* Change To 480px For Static Modal Popout */
     
      /* Header Colors */
-     --header-primary: #fff;
-     --header-secondary: #b9bbbe;
+     --header-primary: rgb(7, 7, 7);
+     --header-secondary: #232324;
      --channels-headings: var(--alt-color2);
-     --modal-bg: rgb(19, 20, 24);
+     --modal-bg: rgb(184, 188, 204);
 
      /* Text Colours */
-     --text-normal: #dcddde;
-     --text-muted: #72767d;
+     --text-normal: #0f0f0f;
+     --text-muted: #3362b4;
      --text-link: var(--alt-color2);
-     --channels-default: #8e9297;
-     --interactive-normal: #b9bbbe;
-     --interactive-hover: #dcddde;
+     --channels-default: #282829;
+     --interactive-normal: #272829;
+     --interactive-hover: #050505;
      --interactive-hover-icons: var(--alt-color2);
-     --interactive-active: #fff;
+     --interactive-active: rgb(7, 7, 7);
       --interactive-active-icons: var(--alt-color2);
      --interactive-muted: #4f545c;
     
@@ -148,27 +223,27 @@
      --channeltextarea-background-hover: var(--bar-background-primary);
     
      /* Background Colours */
-  --background-primary: #191a1fc2 !important;
-  --background-primary-alt: #191a1fd0 !important;
-  --background-secondary: #1b1c224f !important;
-  --background-secondary-alt: #1b1c228a !important;
-  --background-tertiary: #191b2277 !important;
+  --background-primary: #c3c6d3c2 !important;
+  --background-primary-alt: #c3c6d3c2 !important;
+  --background-secondary: #aaaec94f !important;
+  --background-secondary-alt: #aaaec94f !important;
+  --background-tertiary: #a5abc077 !important;
   --background-accent: #2f6cce !important;
-  --background-floating: #18191c !important;
+  --background-floating: #c5ccdf !important;
     
      /* Mentioned  Colours */
-     --background-mentioned: rgba(26, 60, 250, 0.123);
-     --background-mentioned-hover: rgba(41, 26, 250, 0.08);
-     --background-mentioned-bar: var(--background-accent);
+     --background-mentioned: rgba(16, 41, 179, 0.342);
+     --background-mentioned-hover: rgba(41, 26, 250, 0.253);
+     --background-mentioned-bar: rgba(41, 26, 250, 0.856);
     
      --background-help-warning: rgba(250,166,26,0.1);
      --background-help-info: rgba(0,176,244,0.1);
     
      /* Scrollbar Colours */
-     --background-modifier-hover: rgba(79,84,92,0.16);
-     --background-modifier-active: rgba(79,84,92,0.24);
-     --background-modifier-selected: rgba(79,84,92,0.32);
-     --background-modifier-accent: hsla(0,0%,100%,0.06);
+     --background-modifier-hover: rgba(57, 118, 214, 0.16);
+     --background-modifier-active: rgba(28, 77, 155, 0.24);
+     --background-modifier-selected: rgba(15, 101, 238, 0.32);
+     --background-modifier-accent: rgba(45, 62, 219, 0.06);
      --scrollbar-auto-scrollbar-color-thumb: rgba(79,84,92,0.16);
     
     /* Box Shadow On Floating Elements Colours */
@@ -188,95 +263,25 @@
     --radio-group-dot-foreground: var(--alt-color);
     }
 
-.horizontal-1ae9ci {
-     margin-left: 0px !important;
-}
-    
-    /* Extras */
-    .guilds-1SWlCJ{background-color:var(--serverlist-background)}
-    .members-1998pB,.members-1998pB>div{background-color:var(--memberlist-background)}
-    .guilds-1SWlCJ{background-color:var(--serverlist-background-light)}
-    .powercord-toast .contents{background-color:var(--toast-content)}
-    .withFrame-haYltI, .titleBar-AC4pGV {margin-top: var(--titlebar-top);}
-    
-    .channel-2QD9_O .downloadProgressCircle-3_wgim {
-      width: 100%;
-      margin: 0;
-  }
-      .unread-2lAfLh {
-        background-color: var(--background-accent);
-        width: 1.5px;
-        height: 25px;
-        margin-top: -12px;
-        border-radius: 2px 2px 2px 2px;
-    }
-      .toolbar-1t6TWx a {
-        display: none;
-      }
-      
-    /* BETTERDISCORD ADDITONS */
-    .activity-11LB_k {
-      background-color: rgba(0, 0, 0, 0);
-    }
-    .scroller-305q3I {
-      border-radius: 12px;
-    }
-    .theme-dark .perksModal-fSYqOq {
-      background-color: var(--background-primary);
-    }
-    /* Bd Blue */
-    .bd-button, .bd-server-tag, .bd-addon-views .bd-view-button.selected  {
-      background-color: var(--bd-color); 
-    }
-    .bd-button:hover {
-      background-color: var(--bd-color-hover); 
-    }
-    #bd-pub-button:hover {
-      background-color: var(--bd-color-hover); 
-    }
-    .horizontal-1ae9ci {
-      margin-left: 35px;
-    }
-    #bd-pub-li {
-      display: var(--public-servers);
-    }
-
-    /* USRBG */
-    .userPopout-3XzG_A[style*="--user-background"] .profileBanner-33-uE1 {
-      height: 180px;
-      background: var(--user-background) center / cover;
-      margin: 12px;
-      border-radius: 6px;
-  }
-  .userPopout-3XzG_A[style*="--user-background"] .avatarPositionNormal-1CZUPk {
-      top: 110px;
-  }
-  .userPopout-3XzG_A[style*="--user-background"] .headerText-2WJ44e.userSelectText-1o1dQ7 {
-    margin-top: -65px;
-  }
-  .userPopout-3XzG_A[style*="--user-background"] .profileBadges-1dm1_q {
-    margin-top: -15px;
-  }
-  .theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {
-    background-color: var(--modal-bg);
-}
-    
     /*  ----------------------------------------------------
                       Optional Features
             Add A "/*" On The Lines Below The Comments
                       To Disable Them
         ----------------------------------------------------  */
     
-    /* Horizontal Popouts */
-/* 
+/* Horizontal Popouts */
+/*  - remove
+
 .userPopout-3XzG_A{width:500px;-webkit-box-orient:horizontal;flex-direction:row;height:200px}
 .footer-1fjuF6{display:none}
 .header-2BwW8b{width:250px;overflow:hidden auto}
 .header-2BwW8b::-webkit-scrollbar{width:8px;border-radius:8px}
 .header-2BwW8b::-webkit-scrollbar-track{background:transparent;border:2px solid transparent;margin-bottom:2px;margin-top:2px}
 .header-2BwW8b::-webkit-scrollbar-thumb{border:2px solid transparent;border-radius:4px;background:var(--scrollbar-auto-scrollbar-color-track);background-clip:padding-box}
+
 /* Status Bar */
-/*
+/* - remove
+
 .full-motion .scale-3iLZhb.didRender-33z1u8{-webkit-transition:opacity .12s ease-out,-webkit-transform .12s ease-out;transition:opacity .12s ease-out,-webkit-transform .12s ease-out;transition:transform .12s ease-in-out,opacity .12s ease-out;transition:transform .12s ease-out,opacity .12s ease-out,-webkit-transform .12s ease-out;-webkit-transform:scale(1);transform:scale(1);opacity:1}
 .status-1fhblQ,.description-2L932D{display:none}
 .separator-2I32lJ{display:none}
@@ -295,8 +300,52 @@ div[class*=colorDefault-].focused-3afm-j,div[class*=colorDefault-].focused-3afm-
 .mask-1qbNWk.icon-1IxfJ2 {border-radius: 50% !important;}
 .statusItem-33LqPf foreignObject { mask: none}
 
+/* Background Image */
+/* remove
+    :root {
+      --background:url('https://i.gifer.com/3ZTz.gif');
+      --chat-blur: 10px;
+      --chat-transp:0.80;
+      --sides-transp: 0.80;
+      --sides-blur: 10px;
+  }
+  
+#app-mount .container-1D34oG,.app-2rEoOp,.bg-h5JY_x,.chat-3bRxxu,.content-1o0f9g, .contentRegionScroller-26nc1e,.layer-3QrUeG,.members-1998pB>div,.scroller-1JbKMe,.applicationStore-1pNvnv,.scroller-305q3I,.sidebar-2K8pFh,.standardSidebarView-3F1I7i,.wrapper-1F5TKx,.wrapper-3NnKdC,.wrapper-3vR61M,body{background:0 0}.container-3w7J-x,.members-1998pB,.nowPlayingColumn-2sl4cE,.privateChannels-1nO12o,.sidebar-2K8pFh>.scrollerBase-289Jih,#app-mount .sidebar-2K8pFh::before, .sidebarRegionScroller-3MXcoP{background:rgba(47,49,54,var(--sides-transp))}.panels-j1Uci_ {background:rgba(41,43,47,var(--sides-transp))}.scroller-1Bvpku,.withFrame-haYltI, .nowPlayingColumn-2sl4cE{background:rgba(32,34,37,var(--sides-transp))}.scroller-9moviB,#app-mount .pageWrapper-1PgVDX,.chatContent-a9vAAp,.contentRegion-3nDuYy,.header-2mZ9Ov::after,.peopleColumn-29fq28,.stickyHeader-hH_ZLl::after,.titleContainer-2CXtJo::after{background:rgba(54,57,63,var(--chat-transp))}.container-1r6BKw.themed-ANHk51, .container-lRFx4q{background:rgba(54,57,63,var(--sides-transp))}.container-1r6BKw.themed-ANHk51,.members-1998pB,.nowPlayingColumn-2sl4cE,.scroller-1Bvpku,.sidebar-2K8pFh,.sidebarRegionScroller-3MXcoP,.withFrame-haYltI,#app-mount .sidebar-2K8pFh::before, .container-lRFx4q{backdrop-filter:blur(var(--sides-blur))}#app-mount .children-19S4PO:after,#app-mount .form-2fGMdU:before{display:none}.appMount-3lHmkl, .tabBody-3YRQ8W, .nowPlayingColumn-2sl4cE {background:var(--background) center/cover no-repeat}.withFrame-haYltI{padding-top:4px;margin-top:0}#app-mount .sidebar-2K8pFh{border-radius:0}.content-1o0f9g{backdrop-filter:blur(5px)}.header-2mZ9Ov::before,.stickyHeader-hH_ZLl::before,.titleContainer-2CXtJo::before{background:var(--background) center/cover fixed}.header-2mZ9Ov::after,.header-2mZ9Ov::before,.stickyHeader-hH_ZLl::after,.stickyHeader-hH_ZLl::before,.titleContainer-2CXtJo::after,.titleContainer-2CXtJo::before{content:"";position:absolute;top:0;bottom:0;right:0;left:0;pointer-events:none;z-index:-1}.scroller-9moviB, #app-mount .pageWrapper-1PgVDX, .chatContent-a9vAAp, .contentRegion-3nDuYy, .header-2mZ9Ov::after, .peopleColumn-29fq28, .stickyHeader-hH_ZLl::after, .titleContainer-2CXtJo::after {background: rgba(54,57,63,var(--chat-transp));backdrop-filter: blur(var(--chat-blur))}
+#app-mount .sidebar-2K8pFh::before {background-color: #262629c9;}
+*/
+
+    /*  ------------------------------------------
+                  Quarral Configuration End
+                          v1.4.2
+                  IGNORE THE SECTION BELOW
+        ------------------------------------------  */
+
+        .horizontal-1ae9ci{margin-left:0!important}
+        .theme-light .contentRegionScroller-26nc1e,.theme-light .contentRegion-3nDuYy,.theme-light .standardSidebarView-3F1I7i,.theme-light .sidebarRegionScroller-3MXcoP{background:rgba(255,255,255,0.315)}
+        .guilds-1SWlCJ{background-color:var(--serverlist-background)}
+        .members-1998pB,.members-1998pB>div{background-color:var(--memberlist-background)}
+        .guilds-1SWlCJ{background-color:var(--serverlist-background-light)}
+        .powercord-toast .contents{background-color:var(--toast-content)}
+        .withFrame-haYltI,.titleBar-AC4pGV{margin-top:var(--titlebar-top)}
+        .channel-2QD9_O .downloadProgressCircle-3_wgim{width:100%;margin:0}
+        .unread-2lAfLh{background-color:var(--background-accent);width:1.5px;height:25px;margin-top:-12px;border-radius:2px 2px 2px 2px}
+        .toolbar-1t6TWx a{display:none}
+        .activity-11LB_k{background-color:rgba(0,0,0,0)}
+        .scroller-305q3I{border-radius:12px}
+        .theme-dark .perksModal-fSYqOq{background-color:var(--background-primary)}
+        .bd-button,.bd-server-tag,.bd-addon-views .bd-view-button.selected{background-color:var(--bd-color)}
+        .bd-button:hover{background-color:var(--bd-color-hover)}
+        #bd-pub-button:hover{background-color:var(--bd-color-hover)}
+        .horizontal-1ae9ci{margin-left:35px}
+        #bd-pub-li{display:var(--public-servers)}
+        .userPopout-3XzG_A[style*="--user-background"] .profileBanner-33-uE1{height:180px;background:var(--user-background) center / cover;margin:12px;border-radius:6px}
+        .userPopout-3XzG_A[style*="--user-background"] .avatarPositionNormal-1CZUPk{top:110px}
+        .userPopout-3XzG_A[style*="--user-background"] .headerText-2WJ44e.userSelectText-1o1dQ7{margin-top:-65px}
+        .userPopout-3XzG_A[style*="--user-background"] .profileBadges-1dm1_q{margin-top:-15px}
+        .theme-dark .body-3iLsc4,.theme-dark .footer-1fjuF6{background-color:var(--modal-bg)}
+
         /*  ----------------------------------------------------
                ANYTHING ELSE YOU WANT TO ADD GOES BELOW
                       THIS IS FOR DEBUGGING ETC
-                             v1.4.1 (Quarrel)
+                           v1.4.2 (Quarrel)
         ----------------------------------------------------  */
