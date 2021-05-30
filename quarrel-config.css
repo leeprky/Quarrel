@@ -206,7 +206,7 @@ I RECOMMEND USING A PROGRAM LIKE VISUAL STUDIO CODE INSTEAD OF NOTEPAD
     
     --scrollbars: none; /* none or unset */
     --public-servers: none;
-    --bar-background-primary: #c3c6d3c2 !important;
+    --bar-background-primary: #c3c6d3 !important;
     --home-icon: url(https://i.imgur.com/Bda0DuK.png);
       
     --playing-color: var(--alt-color2);
