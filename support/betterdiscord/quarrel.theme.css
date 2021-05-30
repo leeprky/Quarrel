@@ -1,7 +1,7 @@
 /**
  * @name Quarrel
  * @author Leeprky#2063
- * @version 1.4.2.1
+ * @version 1.4.2.2
  * @description Based Off The Quarral Client In The Windows Store/XBOX.
  * @source https://github.com/leeprky/Quarrel
  * @updateUrl https://github.com/leeprky/Quarrel/blob/main/support/betterdiscord/quarrel.theme.css
@@ -98,7 +98,7 @@ I RECOMMEND USING A PROGRAM LIKE VISUAL STUDIO CODE INSTEAD OF NOTEPAD
     
     --scrollbars: none; /* Remove None For Scrollbars - none */
     --public-servers: none; /* Remove None For Public Server Button - none */
-    --bar-background-primary: #1b1c2281 !important; /* Bottom Bar Colour - #1b1c2281 */
+    --bar-background-primary: #1b1c22 !important; /* Bottom Bar Colour - #1b1c22 */
     --home-icon: url(https://i.imgur.com/Bda0DuK.png); /* Friends Home Icon - https://i.imgur.com/Bda0DuK.png */
       
     --playing-color: var(--alt-color2); /* Dont Work In New Discord Modal Update */
@@ -190,7 +190,7 @@ I RECOMMEND USING A PROGRAM LIKE VISUAL STUDIO CODE INSTEAD OF NOTEPAD
     
     --scrollbars: none; /* none or unset */
     --public-servers: none;
-    --bar-background-primary: #c3c6d3c2 !important;
+    --bar-background-primary: #c3c6d3 !important;
     --home-icon: url(https://i.imgur.com/Bda0DuK.png);
       
     --playing-color: var(--alt-color2);
