@@ -114,7 +114,7 @@ I RECOMMEND USING A PROGRAM LIKE VISUAL STUDIO CODE INSTEAD OF NOTEPAD
     
     --scrollbars: none; /* Remove None For Scrollbars - none */
     --public-servers: none; /* Remove None For Public Server Button - none */
-    --bar-background-primary: #1b1c2281 !important; /* Bottom Bar Colour - #1b1c2281 */
+    --bar-background-primary: #1b1c22 !important; /* Bottom Bar Colour - #1b1c22 */
     --home-icon: url(https://i.imgur.com/Bda0DuK.png); /* Friends Home Icon - https://i.imgur.com/Bda0DuK.png */
       
     --playing-color: var(--alt-color2); /* Dont Work In New Discord Modal Update */
