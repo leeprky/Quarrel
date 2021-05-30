@@ -1,4 +1,4 @@
-# Quarrel (v1.0)
+# Quarrel (v1.4.2)
 A Themed Based Of The Quarrel Client In The Windows Store
 
 ![preview](https://i.imgur.com/zrJ3z59.png)
