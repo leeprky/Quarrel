@@ -1,7 +1,7 @@
 /**
  * @name Quarrel
  * @author Leeprky#2063
- * @version 1.4.2.2
+ * @version 1.4.2.3
  * @description Based Off The Quarral Client In The Windows Store/XBOX.
  * @source https://github.com/leeprky/Quarrel
  * @updateUrl https://github.com/leeprky/Quarrel/blob/main/support/betterdiscord/quarrel.theme.css
@@ -150,10 +150,10 @@ I RECOMMEND USING A PROGRAM LIKE VISUAL STUDIO CODE INSTEAD OF NOTEPAD
      --background-help-info: rgba(0,176,244,0.1); /* IDK | Rebrand Stuff - rgba(0,176,244,0.1) */
     
      /* Scrollbar Colours */
-     --background-modifier-hover: rgba(79,84,92,0.16); /* Hovering Over Buttons Hover Colour - rgba(79,84,92,0.16) */
-     --background-modifier-active: rgba(79,84,92,0.24); /* Hovering Over Buttons Active Colour - rgba(79,84,92,0.16) */
-     --background-modifier-selected: rgba(79,84,92,0.32); /* Hovering Over Buttons Selected Colour - rgba(79,84,92,0.16) */
-     --background-modifier-accent: hsla(0,0%,100%,0.06); /* Hovering Over Buttons Accent Colour - rgba(79,84,92,0.16) */
+     --background-modifier-hover: rgba(53, 89, 148, 0.16); /* Hovering Over Buttons Hover Colour - rgba(79,84,92,0.16) */
+     --background-modifier-active: rgba(50, 89, 151, 0.24); /* Hovering Over Buttons Active Colour - rgba(79,84,92,0.16) */
+     --background-modifier-selected: rgba(46, 93, 170, 0.32); /* Hovering Over Buttons Selected Colour - rgba(79,84,92,0.16) */
+     --background-modifier-accent: rgba(46, 94, 133, 0.06); /* Hovering Over Buttons Accent Colour - rgba(79,84,92,0.16) */
     
     /* Box Shadow On Floating Elements Colours */
     --elevation-stroke: 0 0 0 1px rgba(4,4,5,0.15); /* Box Shadow On Floating Elements Stroke - 0 0 0 1px rgba(4,4,5,0.15) */
