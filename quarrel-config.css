@@ -118,7 +118,7 @@ I RECOMMEND USING A PROGRAM LIKE VISUAL STUDIO CODE INSTEAD OF NOTEPAD
     --home-icon: url(https://i.imgur.com/Bda0DuK.png); /* Friends Home Icon - https://i.imgur.com/Bda0DuK.png */
       
     --playing-color: var(--alt-color2); /* Dont Work In New Discord Modal Update */
-    --spotify-color: var(--alt-color2); /* Dont Work In New Discord Modal Update */
+    --spotify-color: rgb(40, 182, 51); /* Dont Work In New Discord Modal Update */
     --streaming-color: rgb(127, 50, 179); /* Dont Work In New Discord Modal Update */
                 
       /* Keeping Consistancy With Discord */ 
