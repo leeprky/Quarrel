@@ -1,7 +1,7 @@
 /**
  * @name Quarrel
  * @author Leeprky#2063
- * @version 1.4.3.1
+ * @version 1.4.3.2
  * @description Based Off The Quarral Client In The Windows Store/XBOX.
  * @source https://github.com/leeprky/Quarrel
  * @updateUrl https://github.com/leeprky/Quarrel/blob/main/support/betterdiscord/quarrel.theme.css
@@ -13,7 +13,7 @@
 
 /*  ------------------------------------------
             Quarrel Theme (BetterDiscord)
-                      v1.4.3.1
+                      v1.4.3.2
                 - leeprky#2063 -
     ------------------------------------------  */
 
@@ -44,7 +44,7 @@
 
     /*  ------------------------------------------
                   Quarral Configuration
-                        v1.4.2.4
+                        v1.4.3.2
                     - leeprky#2063 -
         ------------------------------------------  */
 
@@ -76,6 +76,32 @@ I RECOMMEND USING A PROGRAM LIKE VISUAL STUDIO CODE INSTEAD OF NOTEPAD
   --rs-invisible-color: #747f8d;  /* Colour for invisible status - Note: this will only show for your own invisibility */
   --rs-phone-visible: block; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
   --rs-phone-color: var(--rs-online-color); /* Colour of the ring and phone icon when a user is on their phone |  */
+            
+      /* Gradients */
+      --default-gradient: 315deg, #1b5eb6 0%, #205aa5 74%;
+      --special-gradient: 315deg, #8980F0 0%, #D577F0 74%;
+      --red-gradient: 315deg, #AA3738 0%, #F04747 74%;
+      --yellow-gradient: 315deg, #c29b1b 0%, #ffa640 74%;
+      --green-gradient: 315deg, #1b5eb6 0%, #205aa5  74%;
+      --grey-gradient: 315deg, #203A43 0%, #28434d 74%;
+      --white-gradient: 315deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 74%;
+      /* Transitions */
+      --font-normal: 500;
+      --font-hover: bold;
+      --font-size-hover: 15px;
+      --hover-transition: 0.1s linear;
+      --transform-normal: scale(1);
+      --hover-transform: scale(1.15);
+      --setting-hover-transform: scale(1.025);
+      --button-hover-transform: scale(1.03);
+
+      /* Greenple */
+      --green-color: var(--alt-color2);
+      --green-bar-on: var(--green-color);
+      --green-bar-bg: #151925;
+      --green-slider-on: var(--green-color);
+      --green-slider-off: #5c646480;
+      --green-slider-dot: #fff;
 }
 
     /* Quarrel Dark */
