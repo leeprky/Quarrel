@@ -1,7 +1,7 @@
 # Quarrel (v1.4.3)
 A Themed Based Of The Quarrel Client In The Windows Store
 
-![preview](https://i.imgur.com/9GsCg2U.jpg)
+![preview](https://i.imgur.com/FAVnVN5.png)
 
 ## How To Install Quarrel?
 
