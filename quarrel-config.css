@@ -1,26 +1,24 @@
 /*  ------------------------------------------
             Quarrel Theme (Powercord)
-                      v1.4.2.3
+                      v1.4.3
                 - leeprky#2063 -
     ------------------------------------------  */
 
 /* Rebrand */
 @import url(https://leeprky.github.io/themes/quarrel/rebrand-quarrel.css);
 
-    @import url(https://leeprky.github.io/themes/quarrel/quarrel.css);
+/* Source */
+@import url(https://leeprky.github.io/themes/quarrel/quarrel.css);
+@import url(https://leeprky.github.io/snippits/coolsniipitsforthemes.css);
 
-    @import url(https://leeprky.github.io/snippits/coolsniipitsforthemes.css);
-    @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
-    @import url(https://ghostmander.github.io/discordfont/DiscordFont.css);
-    
-    /** Custom Gradient Names **/
-    /* - remove
-    @import url("https://discord-custom-gradient-names.github.io/gradient/dist/main.min.css"); 
+/* Extras */
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
+@import url(https://ghostmander.github.io/discordfont/DiscordFont.css);
 
 /*  ----------------------------
          GLASSCORD SUPPORT
     ----------------------------  */
-
+/*
 :root{
 	--glasscord-win-blur: blurbehind;
 	--glasscord-macos-vibrancy: fullscreen-ui;
@@ -61,7 +59,7 @@ body{
 
     /*  ------------------------------------------
                   Quarral Configuration
-                          v1.4.2
+                          v1.4.3
                     - leeprky#2063 -
         ------------------------------------------  */
 
@@ -287,15 +285,7 @@ I RECOMMEND USING A PROGRAM LIKE VISUAL STUDIO CODE INSTEAD OF NOTEPAD
             Add A "/*" On The Lines Below The Comments
                       To Disable Them
         ----------------------------------------------------  */
-    
-/* Horizontal Popouts */
-/*  - remove
-.userPopout-3XzG_A{width:500px;-webkit-box-orient:horizontal;flex-direction:row;height:200px}
-.footer-1fjuF6{display:none}
-.header-2BwW8b{width:250px;overflow:hidden auto}
-.header-2BwW8b::-webkit-scrollbar{width:8px;border-radius:8px}
-.header-2BwW8b::-webkit-scrollbar-track{background:transparent;border:2px solid transparent;margin-bottom:2px;margin-top:2px}
-.header-2BwW8b::-webkit-scrollbar-thumb{border:2px solid transparent;border-radius:4px;background:var(--scrollbar-auto-scrollbar-color-track);background-clip:padding-box}
+
 /* Status Bar */
 /* - remove
 .full-motion .scale-3iLZhb.didRender-33z1u8{-webkit-transition:opacity .12s ease-out,-webkit-transform .12s ease-out;transition:opacity .12s ease-out,-webkit-transform .12s ease-out;transition:transform .12s ease-in-out,opacity .12s ease-out;transition:transform .12s ease-out,opacity .12s ease-out,-webkit-transform .12s ease-out;-webkit-transform:scale(1);transform:scale(1);opacity:1}
@@ -315,6 +305,7 @@ div[class*=colorDefault-].focused-3afm-j,div[class*=colorDefault-].focused-3afm-
 .statusItem-33LqPf,#app-mount #status-picker{position:relative;margin-left:-3px;margin-bottom:-4px;animation-name:smooth-up1;animation-duration:4s}
 .mask-1qbNWk.icon-1IxfJ2 {border-radius: 50% !important;}
 .statusItem-33LqPf foreignObject { mask: none}
+
 /* Background Image */
 /* remove
     :root {
@@ -331,7 +322,7 @@ div[class*=colorDefault-].focused-3afm-j,div[class*=colorDefault-].focused-3afm-
 
     /*  ------------------------------------------
                   Quarral Configuration End
-                          v1.4.2
+                          v1.4.3
                   IGNORE THE SECTION BELOW
         ------------------------------------------  */
 
@@ -357,5 +348,5 @@ div[class*=colorDefault-].focused-3afm-j,div[class*=colorDefault-].focused-3afm-
         /*  ----------------------------------------------------
                ANYTHING ELSE YOU WANT TO ADD GOES BELOW
                       THIS IS FOR DEBUGGING ETC
-                           v1.4.2 (Quarrel)
+                           v1.4.3 (Quarrel)
         ----------------------------------------------------  */
