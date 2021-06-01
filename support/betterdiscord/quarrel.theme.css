@@ -1,7 +1,7 @@
 /**
  * @name Quarrel
  * @author Leeprky#2063
- * @version 1.4.2.4
+ * @version 1.4.3
  * @description Based Off The Quarral Client In The Windows Store/XBOX.
  * @source https://github.com/leeprky/Quarrel
  * @updateUrl https://github.com/leeprky/Quarrel/blob/main/support/betterdiscord/quarrel.theme.css
@@ -13,39 +13,40 @@
 
 /*  ------------------------------------------
             Quarrel Theme (BetterDiscord)
-                      v1.4.2
+                      v1.4.3
                 - leeprky#2063 -
     ------------------------------------------  */
 
 /* Rebrand */
 @import url(https://leeprky.github.io/themes/quarrel/rebrand-quarrel.css);
 
-    @import url(https://leeprky.github.io/themes/quarrel/quarrel.css);
+/* Source */
+@import url(https://leeprky.github.io/themes/quarrel/quarrel.css);
+@import url(https://leeprky.github.io/snippits/coolsniipitsforthemes.css);
 
-    @import url(https://leeprky.github.io/snippits/coolsniipitsforthemes.css);
-    @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
-    @import url(https://ghostmander.github.io/discordfont/DiscordFont.css);
-    
-    /** Custom Gradient Names **/
-    /* - remove
-    @import url("https://discord-custom-gradient-names.github.io/gradient/dist/main.min.css"); 
-    
+/* Extras */
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
+@import url(https://ghostmander.github.io/discordfont/DiscordFont.css);
+
     /* ===========================================
              USRBG Popouts by Tropix126.
     =========================================== */
-    
+
     @import url(https://discord-custom-covers.github.io/usrbg/dist/usrbg.css);
     .root-SR8cQa{transform:translateZ(0)}
     .header-QKLPzZ .wrapper-3t9DeA::before{content:'';position:fixed;top:0;left:0;width:100%;height:100%;opacity:.5;pointer-events:none;background:var(--user-background) center/cover no-repeat;-webkit-mask:linear-gradient(black,transparent 80%)}
     .headerInfo-30uryT,.tabBarItem-1b8RUP,.activity-1ythUs{z-index:1;position:relative}
-    
+
     /* ===========================================
              USRBG Popouts by Tropix126.
     =========================================== */
 
+    
+    
+    
     /*  ------------------------------------------
                   Quarral Configuration
-                          v1.4.2
+                        v1.4.3
                     - leeprky#2063 -
         ------------------------------------------  */
 
@@ -102,7 +103,7 @@ I RECOMMEND USING A PROGRAM LIKE VISUAL STUDIO CODE INSTEAD OF NOTEPAD
     --home-icon: url(https://i.imgur.com/Bda0DuK.png); /* Friends Home Icon - https://i.imgur.com/Bda0DuK.png */
       
     --playing-color: var(--alt-color2); /* Dont Work In New Discord Modal Update */
-    --spotify-color: rgb(40, 182, 51); /* Dont Work In New Discord Modal Update */
+    --spotify-color: rgba(35, 197, 35, 0.747); /* Dont Work In New Discord Modal Update */
     --streaming-color: rgb(127, 50, 179); /* Dont Work In New Discord Modal Update */
                 
       /* Keeping Consistancy With Discord */ 
@@ -271,16 +272,6 @@ I RECOMMEND USING A PROGRAM LIKE VISUAL STUDIO CODE INSTEAD OF NOTEPAD
             Add A "/*" On The Lines Below The Comments
                       To Disable Them
         ----------------------------------------------------  */
-    
-/* Horizontal Popouts */
-/*  - remove
-
-.userPopout-3XzG_A{width:500px;-webkit-box-orient:horizontal;flex-direction:row;height:200px}
-.footer-1fjuF6{display:none}
-.header-2BwW8b{width:250px;overflow:hidden auto}
-.header-2BwW8b::-webkit-scrollbar{width:8px;border-radius:8px}
-.header-2BwW8b::-webkit-scrollbar-track{background:transparent;border:2px solid transparent;margin-bottom:2px;margin-top:2px}
-.header-2BwW8b::-webkit-scrollbar-thumb{border:2px solid transparent;border-radius:4px;background:var(--scrollbar-auto-scrollbar-color-track);background-clip:padding-box}
 
 /* Status Bar */
 /* - remove
@@ -319,7 +310,7 @@ div[class*=colorDefault-].focused-3afm-j,div[class*=colorDefault-].focused-3afm-
 
     /*  ------------------------------------------
                   Quarral Configuration End
-                          v1.4.2
+                          v1.4.3
                   IGNORE THE SECTION BELOW
         ------------------------------------------  */
 
@@ -350,5 +341,5 @@ div[class*=colorDefault-].focused-3afm-j,div[class*=colorDefault-].focused-3afm-
         /*  ----------------------------------------------------
                ANYTHING ELSE YOU WANT TO ADD GOES BELOW
                       THIS IS FOR DEBUGGING ETC
-                           v1.4.2 (Quarrel)
+                           v1.4.3 (Quarrel)
         ----------------------------------------------------  */
