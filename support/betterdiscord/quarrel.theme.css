@@ -1,7 +1,7 @@
 /**
  * @name Quarrel
  * @author Leeprky#2063
- * @version 1.4.3
+ * @version 1.4.3.1
  * @description Based Off The Quarral Client In The Windows Store/XBOX.
  * @source https://github.com/leeprky/Quarrel
  * @updateUrl https://github.com/leeprky/Quarrel/blob/main/support/betterdiscord/quarrel.theme.css
@@ -13,7 +13,7 @@
 
 /*  ------------------------------------------
             Quarrel Theme (BetterDiscord)
-                      v1.4.3
+                      v1.4.3.1
                 - leeprky#2063 -
     ------------------------------------------  */
 
@@ -27,6 +27,7 @@
 /* Extras */
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
 @import url(https://ghostmander.github.io/discordfont/DiscordFont.css);
+@import url(https://raw.githack.com/mr-miner1/Better-Badges/main/theme.css);
 
     /* ===========================================
              USRBG Popouts by Tropix126.
@@ -34,19 +35,16 @@
 
     @import url(https://discord-custom-covers.github.io/usrbg/dist/usrbg.css);
     .root-SR8cQa{transform:translateZ(0)}
-    .header-QKLPzZ .wrapper-3t9DeA::before{content:'';position:fixed;top:0;left:0;width:100%;height:100%;opacity:.5;pointer-events:none;background:var(--user-background) center/cover no-repeat;-webkit-mask:linear-gradient(black,transparent 80%)}
+    .header-QKLPzZ .wrapper-3t9DeA::before{content:'';position:fixed;top:0;left:0;width:100%;height:65%;opacity:.75;pointer-events:none;background:var(--user-background) center/cover no-repeat;-webkit-mask:linear-gradient(black,transparent 80%)}
     .headerInfo-30uryT,.tabBarItem-1b8RUP,.activity-1ythUs{z-index:1;position:relative}
 
     /* ===========================================
              USRBG Popouts by Tropix126.
     =========================================== */
 
-    
-    
-    
     /*  ------------------------------------------
                   Quarral Configuration
-                        v1.4.3
+                        v1.4.2.4
                     - leeprky#2063 -
         ------------------------------------------  */
 
@@ -136,11 +134,11 @@ I RECOMMEND USING A PROGRAM LIKE VISUAL STUDIO CODE INSTEAD OF NOTEPAD
      /* Background Colours */
   --background-primary: #191a1fc2 !important; /* Main Background Colour, Chat Etc - #191a1fc2 */
   --background-primary-alt: #191a1fd0 !important; /* Main Alternative Background Colour - #191a1fd0 */
-  --background-secondary: #1b1c224f !important; /* Secondary Background Colour, Channelist, TopBar  Etc - #1b1c224f */
+  --background-secondary: #1b1c222a !important; /* Secondary Background Colour, Channelist, TopBar  Etc - #1b1c224f */
   --background-secondary-alt: #1b1c228a !important; /* Secondary Alternative Background Colour - #1b1c228a */
-  --background-tertiary: #191b2277 !important; /* Tertiary Background Colour | #App Mount Colour Etc - #191b2277 */
+  --background-tertiary: #191b2267 !important; /* Tertiary Background Colour | #App Mount Colour Etc - #191b2277 */
   --background-accent: var(--alt-color2) !important; /* Accent Background Colour, Pills Etc - var(--alt-color2) */
-  --background-floating: #18191c !important; /* Floating Modals Background Colour, Clickable Stuff Etc -#18191c */
+  --background-floating: #1f2024 !important; /* Floating Modals Background Colour, Clickable Stuff Etc -#18191c */
     
      /* Mentioned  Colours */
      --background-mentioned: rgba(26, 60, 250, 0.123); /* Chat Mentioned BG - rgba(26, 60, 250, 0.123) */
@@ -195,7 +193,7 @@ I RECOMMEND USING A PROGRAM LIKE VISUAL STUDIO CODE INSTEAD OF NOTEPAD
     --home-icon: url(https://i.imgur.com/Bda0DuK.png);
       
     --playing-color: var(--alt-color2);
-    --spotify-color: var(--alt-color2);
+    --spotify-color: rgba(35, 197, 35, 0.747);
     --streaming-color: rgb(127, 50, 179);
                 
       /* Keeping Consistancy With Discord */ 
@@ -310,7 +308,7 @@ div[class*=colorDefault-].focused-3afm-j,div[class*=colorDefault-].focused-3afm-
 
     /*  ------------------------------------------
                   Quarral Configuration End
-                          v1.4.3
+                          v1.4.3.1
                   IGNORE THE SECTION BELOW
         ------------------------------------------  */
 
@@ -332,14 +330,9 @@ div[class*=colorDefault-].focused-3afm-j,div[class*=colorDefault-].focused-3afm-
         #bd-pub-button:hover{background-color:var(--bd-color-hover)}
         .horizontal-1ae9ci{margin-left:35px}
         #bd-pub-li{display:var(--public-servers)}
-        .userPopout-3XzG_A[style*="--user-background"] .profileBanner-33-uE1{height:180px;background:var(--user-background) center / cover;margin:12px;border-radius:6px}
-        .userPopout-3XzG_A[style*="--user-background"] .avatarPositionNormal-1CZUPk{top:110px}
-        .userPopout-3XzG_A[style*="--user-background"] .headerText-2WJ44e.userSelectText-1o1dQ7{margin-top:-65px}
-        .userPopout-3XzG_A[style*="--user-background"] .profileBadges-1dm1_q{margin-top:-15px}
-        .theme-dark .body-3iLsc4,.theme-dark .footer-1fjuF6{background-color:var(--modal-bg)}
 
         /*  ----------------------------------------------------
                ANYTHING ELSE YOU WANT TO ADD GOES BELOW
                       THIS IS FOR DEBUGGING ETC
-                           v1.4.3 (Quarrel)
+                           v1.4.3.1 (Quarrel)
         ----------------------------------------------------  */
