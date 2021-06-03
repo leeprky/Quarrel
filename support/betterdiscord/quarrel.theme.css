@@ -1,7 +1,7 @@
 /**
  * @name Quarrel
  * @author Leeprky#2063
- * @version 1.4.4
+ * @version 1.4.4.1
  * @description Based Off The Quarral Client In The Windows Store/XBOX.
  * @source https://github.com/leeprky/Quarrel
  * @updateUrl https://github.com/leeprky/Quarrel/blob/main/support/betterdiscord/quarrel.theme.css
@@ -85,6 +85,7 @@ I RECOMMEND USING A PROGRAM LIKE VISUAL STUDIO CODE INSTEAD OF NOTEPAD
       --green-gradient: 315deg, #1b5eb6 0%, #205aa5  74%;
       --grey-gradient: 315deg, #40414627 0%, #484c4e59 74%;
       --white-gradient: 315deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 74%;
+      
       /* Transitions */
       --font-normal: 500;
       --font-hover: bold;
@@ -118,12 +119,12 @@ I RECOMMEND USING A PROGRAM LIKE VISUAL STUDIO CODE INSTEAD OF NOTEPAD
     --bd-color: #1B5EB6; /* Betterdiscord Global Colour - #1B5EB6 */
     --bd-color-hover: #164a8f; /* Betterdiscord Global Colour Hover - #164a8f */
     --alt-color: 27, 94, 182; /* Discords Blurple Global | RGB - 27, 94, 182 */
-    --alt-color2: #1b5eb6; /* Discords Blurple Global | HEX - #1b5eb6 */
+    --alt-color2: #1b6bb6; /* Discords Blurple Global | HEX - #1b5eb6 */
     /* Change Both Alts To Same Alternate Version As They Do Different Things Just Different Ways */
     
     --scrollbars: none; /* Remove None For Scrollbars - none */
     --public-servers: none; /* Remove None For Public Server Button - none */
-    --bar-background-primary: #1b1c22 !important; /* Bottom Bar Colour - #1b1c22 */
+    --bar-background-primary: #1b1c2200 !important; /* Bottom Bar Colour - #1b1c22 */
     --home-icon: url(https://i.imgur.com/Bda0DuK.png); /* Friends Home Icon - https://i.imgur.com/Bda0DuK.png */
       
     --playing-color: var(--alt-color2); /* Dont Work In New Discord Modal Update */
@@ -158,7 +159,7 @@ I RECOMMEND USING A PROGRAM LIKE VISUAL STUDIO CODE INSTEAD OF NOTEPAD
      --channeltextarea-background-hover: var(--bar-background-primary); /* TextBox Background Hover */
     
      /* Background Colours */
-  --background-primary: #191a1fc2 !important; /* Main Background Colour, Chat Etc - #191a1fc2 */
+  --background-primary: #191a1f46 !important; /* Main Background Colour, Chat Etc - #191a1fc2 */
   --background-primary-alt: #191a1fd0 !important; /* Main Alternative Background Colour - #191a1fd0 */
   --background-secondary: #1b1c222a !important; /* Secondary Background Colour, Channelist, TopBar  Etc - #1b1c224f */
   --background-secondary-alt: #1b1c228a !important; /* Secondary Alternative Background Colour - #1b1c228a */
@@ -299,7 +300,6 @@ I RECOMMEND USING A PROGRAM LIKE VISUAL STUDIO CODE INSTEAD OF NOTEPAD
 
 /* Status Bar */
 /* - remove
-
 .full-motion .scale-3iLZhb.didRender-33z1u8{-webkit-transition:opacity .12s ease-out,-webkit-transform .12s ease-out;transition:opacity .12s ease-out,-webkit-transform .12s ease-out;transition:transform .12s ease-in-out,opacity .12s ease-out;transition:transform .12s ease-out,opacity .12s ease-out,-webkit-transform .12s ease-out;-webkit-transform:scale(1);transform:scale(1);opacity:1}
 .status-1fhblQ,.description-2L932D{display:none}
 .separator-2I32lJ{display:none}
@@ -317,7 +317,6 @@ div[class*=colorDefault-].focused-3afm-j,div[class*=colorDefault-].focused-3afm-
 .statusItem-33LqPf,#app-mount #status-picker{position:relative;margin-left:-3px;margin-bottom:-4px;animation-name:smooth-up1;animation-duration:4s}
 .mask-1qbNWk.icon-1IxfJ2 {border-radius: 50% !important;}
 .statusItem-33LqPf foreignObject { mask: none}
-
 /* Background Image */
 /* remove
     :root {
