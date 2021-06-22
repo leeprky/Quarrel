@@ -16,6 +16,25 @@
 @import url(https://ghostmander.github.io/discordfont/DiscordFont.css);
 @import url(https://raw.githack.com/mr-miner1/Better-Badges/main/theme.css);
 
+@import "https://leeprky.github.io/themes/Ovel/imports/07-extra/version.css";
+
+/* Outdated Version Code*/
+:root {
+   --theme: "Quarrel";
+   --build: "155";
+   --version-latest: "v1.5";
+   --version-latest-long: "Version: " var(--version-latest) " (Latest) ";
+   --version-long: "Version: " var(--version) " (Current) ";
+   --theme-dl: "https://github.com/leeprky/Ovel"
+}
+
+[id*="Quarrel"] .bd-addon-header .bd-meta:before {
+       content:"Build " var(--build) " | ";
+   }
+#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div.base-3dtUhz:before{display:var(--outdated_quarrel-155,block)!important;position:absolute;left:0!important;width:fit-content;!important}
+#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div.base-3dtUhz:before{content:var(--theme)" Is outdated Or Broken.. Current: (" var(--version)") | Latest: (" var(--version-latest) ") | Redownload the theme From \""var(--theme-dl)"\""!important;display:block;background-color:var(--alt-color2);color:#fff;flex-grow:0;flex-shrink:0;font-size:16px;font-weight:500;height:auto;line-height:16px;opacity:1;padding:10px;padding-left:20px;padding-right:20px;position:relative;text-align:center;visibility:unset;white-space:pre-wrap;top:0;left:0;bottom:unset;right:unset;max-width:10000px;min-width:unset;max-height:unset;min-height:unset;transform:unset;animation:unset;z-index:101;pointer-events:none}
+
+
 /*  ----------------------------
          GLASSCORD SUPPORT
     ----------------------------  */
