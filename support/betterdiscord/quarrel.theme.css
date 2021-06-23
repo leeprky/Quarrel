@@ -355,7 +355,7 @@ div[class*=colorDefault-].focused-3afm-j,div[class*=colorDefault-].focused-3afm-
         #bd-pub-button:hover{background-color:var(--bd-color-hover)}
         .horizontal-1ae9ci{margin-left:35px}
         #bd-pub-li{display:var(--public-servers)};
-        :root {--outdated_quarrel-155: none; }
+        :root {--build: "155"; --version: "v1.5"; --outdated_quarrel-155: none; }
 
         /*  ----------------------------------------------------
                ANYTHING ELSE YOU WANT TO ADD GOES BELOW
