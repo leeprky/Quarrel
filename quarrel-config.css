@@ -15,8 +15,7 @@
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
 @import url(https://ghostmander.github.io/discordfont/DiscordFont.css);
 @import url(https://raw.githack.com/mr-miner1/Better-Badges/main/theme.css);
-
-@import "https://leeprky.github.io/themes/Ovel/imports/07-extra/version.css";
+:root {--version: "v1.0.5.1" !important; --build: "174" !important; --outdated_quarrel-174: none !important}
 
 /*  ----------------------------
          GLASSCORD SUPPORT
@@ -373,7 +372,6 @@ div[class*=colorDefault-].focused-3afm-j,div[class*=colorDefault-].focused-3afm-
         .userPopout-3XzG_A[style*="--user-background"] .headerText-2WJ44e.userSelectText-1o1dQ7{margin-top:-65px}
         .userPopout-3XzG_A[style*="--user-background"] .profileBadges-1dm1_q{margin-top:-15px}
         .theme-dark .body-3iLsc4,.theme-dark .footer-1fjuF6{background-color:var(--modal-bg)}
-        :root {--version: "v1.0.5.1" !important; --build: "174" !important; --outdated_quarrel-174: none !important}
 
         /*  ----------------------------------------------------
                ANYTHING ELSE YOU WANT TO ADD GOES BELOW
