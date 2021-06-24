@@ -42,6 +42,8 @@
              USRBG Popouts by Tropix126.
     =========================================== */
 
+:root {--version: "v1.0.5.1" !important; --build: "174" !important; --outdated_quarrel-174: none !important}
+
     /*  ------------------------------------------
                   Quarral Configuration
                         v1.5
@@ -355,7 +357,6 @@ div[class*=colorDefault-].focused-3afm-j,div[class*=colorDefault-].focused-3afm-
         #bd-pub-button:hover{background-color:var(--bd-color-hover)}
         .horizontal-1ae9ci{margin-left:35px}
         #bd-pub-li{display:var(--public-servers)};
-        :root {--version: "v1.0.5.1" !important; --build: "174" !important; --outdated_quarrel-174: none !important}
 
         /*  ----------------------------------------------------
                ANYTHING ELSE YOU WANT TO ADD GOES BELOW
