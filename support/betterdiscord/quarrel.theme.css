@@ -50,6 +50,23 @@
                     - leeprky#2063 -
         ------------------------------------------  */
 
+/* Background Image */
+/*
+:root {
+  --background: url('https://i.imgur.com/6NUSR9H.png'); 
+  --background-blur: 8px; 
+  --background-opacity: 100%; 
+  --background-brightness: 92%; 
+  --background-colour: #191a1fa2; 
+  --bar-background-primary: #191a1fa2 !important; 
+  --background-primary: transparent !important; 
+  --background-primary-alt: #2d355783 !important; 
+  --background-secondary: transparent !important;
+  --background-secondary-alt: #232942fa !important; 
+  --background-tertiary: var(--background-colour) !important; 
+}
+
+
 /* BLAH BLAH BLAH | SOMETIMES MORE INFO - DEFAULT VALUE */
 
 /* HOW TO EDIT THIS THEME
