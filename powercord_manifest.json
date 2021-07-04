@@ -1,9 +1,12 @@
-{
-    "name": "Quarrel",
-    "description": "Based Off The Quarral Client In The Windows Store/XBOX App",
-    "version": "1.5.1",
-    "author": "Leeprky#2063",
-    "splashTheme": "splash.css",
-    "license": "MIT",
-    "theme": "quarrel-config.css"
+{	
+"name": "Quarrel",
+"description": "Based Off The Quarral Client In The Windows Store/XBOX App",
+"version": "1.5.1",
+"author": "Leeprky#2063",
+"license": "MIT",
+"theme": "quarrel-config.css",
+"splashTheme": "splash.css",
+"consent": "true",
+"preview": ["https://camo.githubusercontent.com/f65b3dfef1529b172f324d59223aace8bd5b24fbbc3120c265db848224ab53c8/68747470733a2f2f692e696d6775722e636f6d2f51686832526e552e6a7067"],
+"discord": "Ff3rqAYB89"
 }
