@@ -232,6 +232,7 @@ I RECOMMEND USING A PROGRAM LIKE VISUAL STUDIO CODE INSTEAD OF NOTEPAD
     --bd-color-hover: #226ac9;
     --alt-color: 43, 120, 199; /* RGB */
     --alt-color2: #2e5a94; /* HEX */
+    --alt-color3: 214; /* HSL */
     
     --scrollbars: none; /* none or unset */
     --public-servers: none;
