@@ -152,6 +152,7 @@ I RECOMMEND USING A PROGRAM LIKE VISUAL STUDIO CODE INSTEAD OF NOTEPAD
     --bd-color-hover: #164a8f; /* Betterdiscord Global Colour Hover - #164a8f */
     --alt-color: 27, 94, 182; /* Discords Blurple Global | RGB - 27, 94, 182 */
     --alt-color2: #1b5eb6; /* Discords Blurple Global | HEX - #1b5eb6 */
+    --alt-color3: 214; /* HSL */
     /* Change Both Alts To Same Alternate Version As They Do Different Things Just Different Ways */
     
     --scrollbars: none; /* Remove None For Scrollbars - none */
