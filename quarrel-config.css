@@ -1,6 +1,6 @@
 /*  ------------------------------------------
             Quarrel Theme (Powercord)
-                      v1.5
+                      v1.5.2
                 - leeprky#2063 -
     ------------------------------------------  */
 
@@ -15,7 +15,7 @@
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
 @import url(https://ghostmander.github.io/discordfont/DiscordFont.css);
 @import url(https://raw.githack.com/mr-miner1/Better-Badges/main/theme.css);
-:root {--version: "v1.0.5.1PC" !important; --build: "174" !important; --outdated_quarrel-174: none !important}
+:root {--version: "v1.0.5.2PC" !important; --build: "175" !important; --outdated_quarrel-175: none !important}
 
 /*  ----------------------------
          GLASSCORD SUPPORT
