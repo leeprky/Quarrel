@@ -1,7 +1,7 @@
 {	
 "name": "Quarrel",
 "description": "Based Off The Quarral Client In The Windows Store/XBOX App",
-"version": "1.5.1",
+"version": "1.6",
 "author": "Leeprky#2063",
 "license": "MIT",
 "theme": "quarrel-config.css",
