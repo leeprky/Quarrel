@@ -1,6 +1,6 @@
 /*  ------------------------------------------
             Quarrel Theme (Powercord)
-                      v1.5.2
+                      v1.6
                 - leeprky#2063 -
     ------------------------------------------  */
 
@@ -15,7 +15,7 @@
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
 @import url(https://ghostmander.github.io/discordfont/DiscordFont.css);
 @import url(https://raw.githack.com/mr-miner1/Better-Badges/main/theme.css);
-:root {--version: "v1.0.5.2PC" !important; --build: "175" !important; --outdated_quarrel-175: none !important}
+:root {--version: "v1.0.6PC" !important; --build: "176" !important; --outdated_quarrel-176: none !important}
 
 /*  ----------------------------
          GLASSCORD SUPPORT
@@ -109,6 +109,10 @@ I RECOMMEND USING A PROGRAM LIKE VISUAL STUDIO CODE INSTEAD OF NOTEPAD
   --rs-invisible-color: #747f8d;  /* Colour for invisible status - Note: this will only show for your own invisibility */
   --rs-phone-visible: block; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
   --rs-phone-color: var(--rs-online-color); /* Colour of the ring and phone icon when a user is on their phone |  */
+
+  --glow-online: "Online";
+  --glow-idle: "Idle";
+  --glow-streaming: "Streaming";
 	
       /* Gradients */
       --default-gradient: 315deg, #1b5eb6 0%, #205aa5 74%;
@@ -148,15 +152,12 @@ I RECOMMEND USING A PROGRAM LIKE VISUAL STUDIO CODE INSTEAD OF NOTEPAD
     --watermark-text: "Quarrel"; /* Watermark Text - Quarrel */
     --icon-img: url("https://i.imgur.com/BlVTpku.png"); /* ICON URL - https://i.imgur.com/BlVTpku.png */
     
-    --bd-color: #1B5EB6; /* Betterdiscord Global Colour - #1B5EB6 */
-    --bd-color-hover: #164a8f; /* Betterdiscord Global Colour Hover - #164a8f */
     --alt-color: 27, 94, 182; /* Discords Blurple Global | RGB - 27, 94, 182 */
     --alt-color2: #1b5eb6; /* Discords Blurple Global | HEX - #1b5eb6 */
     --alt-color3: 214; /* HSL */
     /* Change Both Alts To Same Alternate Version As They Do Different Things Just Different Ways */
     
     --scrollbars: none; /* Remove None For Scrollbars - none */
-    --public-servers: none; /* Remove None For Public Server Button - none */
     --bar-background-primary: #1b1c22 !important; /* Bottom Bar Colour - #1b1c22 */
     --home-icon: url(https://i.imgur.com/Bda0DuK.png); /* Friends Home Icon - https://i.imgur.com/Bda0DuK.png */
       
@@ -242,13 +243,10 @@ I RECOMMEND USING A PROGRAM LIKE VISUAL STUDIO CODE INSTEAD OF NOTEPAD
     --watermark-text: "Quarrel";
     --icon-img: url("https://i.imgur.com/BlVTpku.png");
     
-    --bd-color: #226dcf;
-    --bd-color-hover: #226ac9;
     --alt-color: 43, 120, 199; /* RGB */
     --alt-color2: #2e5a94; /* HEX */
     
     --scrollbars: none; /* none or unset */
-    --public-servers: none;
     --bar-background-primary: #c3c6d3 !important;
     --home-icon: url(https://i.imgur.com/Bda0DuK.png);
       
@@ -367,7 +365,7 @@ div[class*=colorDefault-].focused-3afm-j,div[class*=colorDefault-].focused-3afm-
 
     /*  ------------------------------------------
                   Quarral Configuration End
-                          v1.5
+                          v1.6
                   IGNORE THE SECTION BELOW
         ------------------------------------------  */
 
@@ -393,5 +391,5 @@ div[class*=colorDefault-].focused-3afm-j,div[class*=colorDefault-].focused-3afm-
         /*  ----------------------------------------------------
                ANYTHING ELSE YOU WANT TO ADD GOES BELOW
                       THIS IS FOR DEBUGGING ETC
-                           v1.5 (Quarrel)
+                           v1.6 (Quarrel)
         ----------------------------------------------------  */
