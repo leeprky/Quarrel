@@ -17,6 +17,10 @@ cd powercord/src/Powercord/themes && git clone https://github.com/leeprky/Quarre
 
 For **Betterdiscord** Users:
 
+THIS IS ALWAYS THE LATEST VERSION:
+https://raw.githubusercontent.com/leeprky/Quarrel/main/support/betterdiscord/quarrel.theme.css
+
+THIS IS USUALLY OUT OF DATE:
 1. CLick > [Download](https://betterdiscord.app/Download?id=246)
 
 2. Download Raw
