@@ -17,6 +17,8 @@
 @import url(https://raw.githack.com/mr-miner1/Better-Badges/main/theme.css);
 :root {--version: "v1.6PC" !important; --build: "176" !important; --outdated_quarrel-176: none !important}
 
+:root {--im-aware: none !important} /* Turn To "block to enable */
+
 /*  ----------------------------
          GLASSCORD SUPPORT
     ----------------------------  */

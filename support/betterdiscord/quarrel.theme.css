@@ -43,6 +43,7 @@
     =========================================== */
 
 :root {--version: "v1.0.6BD" !important; --build: "176" !important; --outdated_quarrel-176: none !important}
+:root {--im-aware: none !important} /* Turn To "block to enable */
 
     /*  ------------------------------------------
                   Quarral Configuration
