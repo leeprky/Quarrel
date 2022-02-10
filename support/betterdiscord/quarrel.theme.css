@@ -100,6 +100,9 @@ I RECOMMEND USING A PROGRAM LIKE VISUAL STUDIO CODE INSTEAD OF NOTEPAD
   --glow-online: "Online";
   --glow-idle: "Idle";
   --glow-streaming: "Streaming";
+
+  /* None Or Flex */
+  --status-glow: flex !important;
             
       /* Gradients */
       --default-gradient: 315deg, #1b5eb6 0%, #205aa5 74%;
