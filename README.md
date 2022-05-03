@@ -21,8 +21,7 @@ THIS IS ALWAYS THE LATEST VERSION:
 https://raw.githubusercontent.com/leeprky/Quarrel/main/support/betterdiscord/quarrel.theme.css
 > right click > save as > place in themes folder
 
-THIS IS USUALLY OUT OF DATE:
-1. CLick > [Download](https://betterdiscord.app/Download?id=246)
+NO LONGER AVAILBLE ON BETTER DISCORDS SITE
 
 2. Download Raw
 
